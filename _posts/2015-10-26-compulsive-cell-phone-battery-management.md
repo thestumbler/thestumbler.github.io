@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Compulsive Cell Chone Battery Management
+title: Compulsive Cell Phone Battery Management
 tags:
 - compulsion
 - handphone
