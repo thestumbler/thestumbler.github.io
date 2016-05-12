@@ -8,7 +8,8 @@ A squid?  An octopus?  Well, a squid typically has 8 legs (or arms) and 2 tentac
 
 We can make a simple squid using only basic geometrical shapes, such as circles and rectangles. Although I'm not an artist, after a lot of failures and editing I came up with the following sketch.  I studied a lot of cartoon squids, photos of real squids, and sought feedback from friends.  And if you think this looks silly, you should see some of the ones I rejected!  Maybe that's a good topic for another post.
 
-![How to Draw a Squid](/images/squid-how-to-draw.png) 
+![DrawSquid](/images/squid-how-to-draw.png)
+<i><center><a href="/images/orig/squid-how-to-draw.png">Click here to see larger version</a></center></i>
 
 <div class="message">
 <ul>
@@ -53,7 +54,8 @@ In electronics these days, small devices are all the rage.  Manufacturers spend 
 |==========
 || mm | mm | in | in |
 
-![Various Flat Things](/images/flat-things.png) 
+![FlatThings](/images/flat-things.png) 
+<i><center><a href="/images/orig/flat-things.png">Click here to see larger version</a></center></i>
 
 I've been using a B5 spiral bound notebook to keep notes on this new project, and I was hoping that the final circuit board would be smaller than one B5 page.  You can see in the figure above, it's close, but two of the legs are outside the page boundary.  Bottom line?  I'd like to see it smaller.  I have a few tricks I could use with the I/O connector legs to squeeze it slightly smaller than B5, if the rest of the circuit could fit.  Otherwise, I believe the current size can be reasonably carried.
 

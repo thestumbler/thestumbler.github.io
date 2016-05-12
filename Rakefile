@@ -1,4 +1,17 @@
+# Found at this site:
+# http://albertogrespan.com/blog/rake-tasks-and-jekyll-posts/
+# run by typing 
+# $ rake draft:new
+# $ rake draft:ready
+
 require 'fileutils'
+
+desc "Help"
+task :help do
+  puts "Usage:"
+  puts "$ rake draft:new"
+  puts "$ rake draft:ready"
+end
 
 namespace :draft do
   desc "Creating a new draft for post/entry"
@@ -36,3 +49,9 @@ namespace :draft do
   end
 end
 
+namespace :github do
+  desc "Creating a new draft for post/entry"
+  task :push do
+    puts "Pushing to github"
+  end
+end
