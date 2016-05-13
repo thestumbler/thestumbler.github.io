@@ -53,5 +53,6 @@ namespace :github do
   desc "Creating a new draft for post/entry"
   task :push do
     puts "Pushing to github"
+    git push origin master
   end
 end
