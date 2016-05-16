@@ -1,6 +1,8 @@
 ---
 layout: page
+avatar: "/images/serial-squid-icon512.png"
 title: On Drawing Squids and Circuits
+subtitle: The Serial Squid
 project: serial-squid
 seq: 0
 ---

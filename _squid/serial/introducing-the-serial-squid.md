@@ -1,6 +1,8 @@
 ---
 layout: page
+avatar: "/images/serial-squid-icon512.png"
 title: Introducing the Serial Squid
+subtitle: The Serial Squid
 project: serial-squid
 seq: 1
 tags:
