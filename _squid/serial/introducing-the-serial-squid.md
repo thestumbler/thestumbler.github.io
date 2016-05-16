@@ -1,6 +1,8 @@
 ---
-layout: post
+layout: page
 title: Introducing the Serial Squid
+project: serial-squid
+seq: 1
 tags:
 - squid
 - design

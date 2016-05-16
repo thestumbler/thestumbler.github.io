@@ -1,6 +1,8 @@
 ---
-layout: post
+layout: page
 title: Arms and Legs Aplenty
+project: serial-squid
+seq: 2
 ---
 
 ## Protocol and Connector Diagram

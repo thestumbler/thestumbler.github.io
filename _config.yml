@@ -14,10 +14,17 @@ title: TheStumbler
 description:  Follow the posts of an American engineer living and working in Seoul.
 tagline:      Ramblings of The Stumbling Engineer
 
+collections:
+    squid:
+      output: true
+
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
+  Serial Squid: "serial-squid/"
+  Projects: 
+    - Serial Squid: "serial-squid/"
   About Me: "aboutme"
 #  Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"

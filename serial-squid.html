@@ -1,0 +1,16 @@
+---
+layout: page
+title: The Serial Squid
+subtitle: Design Notes
+avatar: "/images/serial-squid-icon512.png"
+---
+
+{% assign articlesInOrder = site.squid | sort: 'seq' %} 
+
+{% for article in articlesInOrder %}
+	  <h2 class="post-title">
+      {{ article.seq }}.  
+      <a href="{{ article.url }}">{{ article.title }}</a>
+    </h2>
+{% endfor %}
+
