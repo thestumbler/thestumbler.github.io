@@ -1,4 +1,4 @@
-import url("pygment_highlights.css");
+3mport url("pygment_highlights.css");
 
 /* --- General --- */
 
@@ -30,6 +30,7 @@ a:focus {
 }
 blockquote {
   color: #808080;
+  font-size: 14px;
   font-style: italic;
 }
 hr.small {
@@ -324,7 +325,7 @@ footer .theme-by {
 
 @media only screen and (min-width: 768px) {
   .post-preview .post-title {
-    font-size: 36px;
+    font-size: 26px;
   }
 }
 
@@ -368,7 +369,7 @@ footer .theme-by {
 }
 .intro-header .page-heading h1 {
   margin-top: 0;
-  font-size: 50px;
+  font-size: 40px;
 }
 .intro-header .post-heading h1 {
   margin-top: 0;
@@ -514,10 +515,16 @@ footer .theme-by {
   }
 }
 
+/* --- Lists --- */
+ul {
+  margin-bottom: 30px;
+}
+
 /* --- Tables --- */
 
 table {
   padding: 0;
+  margin-bottom: 30px;
 }
 table tr {
   border-top: 1px solid #cccccc;
