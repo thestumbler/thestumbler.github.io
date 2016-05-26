@@ -94,7 +94,8 @@ defaults:
       comments: true  # add comments to all blog posts
   -
     scope:
-      path: "" # all files
+      path: ""
+      type: "pages"
     values:
       layout: "page"
       show-avatar: true

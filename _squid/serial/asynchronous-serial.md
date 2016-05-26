@@ -1,6 +1,7 @@
 ---
 layout: page
 avatar: "/images/serial-squid-icon512.png"
+bigimg: "/images/serial-squid-big-image.png"
 title: Asynchronous Serial Interfaces
 subtitle: The Serial Squid
 project: serial-squid
