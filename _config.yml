@@ -25,7 +25,11 @@ navbar-links:
   Serial Squid: "serial-squid/"
   Projects: 
     - Serial Squid: "serial-squid/"
-  About Me: "aboutme"
+  Github: 
+    - Serial Squid: "https://github.com/thestumbler/serial-squid"
+    - Alpha, for OpenSCAD: "https://github.com/thestumbler/alpha"
+    - This blog: "https://github.com/thestumbler/thestumbler.github.io"
+  Me: "aboutme"
 #  Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
 #    - Learn markdown: "http://www.markdowntutorial.com/"
