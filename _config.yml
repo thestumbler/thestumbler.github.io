@@ -17,15 +17,17 @@ tagline:      Ramblings of The Stumbling Engineer
 collections:
     squid:
       output: true
+    alaska:
+      output: true
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
-  Serial Squid: "serial-squid/"
-  Projects: 
+  Alaska by Bus: "alaska-by-bus/"
+  Projects:
     - Serial Squid: "serial-squid/"
-  Github: 
+  Github:
     - Serial Squid: "https://github.com/thestumbler/serial-squid"
     - Alpha, for OpenSCAD: "https://github.com/thestumbler/alpha"
     - This blog: "https://github.com/thestumbler/thestumbler.github.io"
@@ -52,7 +54,7 @@ author:
   twitter: SeoulBigChris
   linkedin: SeoulBigChris
   stackoverflow: SeoulBigChris
- 
+
 # Select which links to show in the footer
 footer-links-active:
   rss: true
@@ -158,6 +160,6 @@ prose:
           element: "checkbox"
           label: "Publish"
           help: "Check to publish post, uncheck to hide."
-  
+
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
