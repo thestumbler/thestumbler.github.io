@@ -1,4 +1,8 @@
-3mport url("pygment_highlights.css");
+@import url("pygment_highlights.css");
+
+
+/* --- rclott: Added for image captions --- */
+img + em { display: block; text-align: center; }
 
 /* --- General --- */
 
