@@ -1,7 +1,7 @@
 ---
 layout: page
 avatar: "/images/ak/bus-for-sale-front.jpg"
-bigimg: "/images/ak/glennallen-alaska.jpg"
+bigimg: "/images/ak/bus-for-sale.jpg"
 title: The Bus
 subtitle: In which a 35-year-old bus is made ready for Alaska
 project: alaska
@@ -14,9 +14,10 @@ tags:
 - eagle
 ---
 
-
+{% comment %}
 ![bus-side-view](/images/ak/bus-for-sale.jpg)
 *Trailways Eagle Model 10S Bus*
+{% endcomment %}
 
 
 I've ridden Trailways buses before, but I never knew the 

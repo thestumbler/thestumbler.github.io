@@ -1,7 +1,7 @@
 ---
 layout: page
 avatar: "/images/ak/bus-for-sale-front.jpg"
-bigimg: "/images/ak/glennallen-alaska.jpg"
+bigimg: "/images/ak/house611-front.jpg"
 title: And So It Begins
 subtitle: In which a house is sold and a bus is bought
 project: alaska
@@ -15,8 +15,10 @@ tags:
 
 
 
+{% comment %}
 ![lott-family-home](/images/ak/house611-front.jpg)
 *Lott Family Home on Hambaugh Terrace*
+{% endcomment %}
 
 For the first time in almost fifty years, there won’t be any Lotts living on
 Hambaugh Terrace. In 1969, our parents took a risky plunge and moved into a big
