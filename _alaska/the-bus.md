@@ -6,6 +6,8 @@ title: The Bus
 subtitle: In which a 35-year-old bus is made ready for Alaska
 project: alaska
 seq: 2
+date: 2018-09-02
+hidenav: true
 tags:
 - background
 - alaska

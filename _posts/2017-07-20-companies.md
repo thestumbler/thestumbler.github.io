@@ -1,6 +1,7 @@
 ---
 layout: post
 description: list of companies
+published: false
 ---
 
 This is a semi-automated list of new companies which I found online 

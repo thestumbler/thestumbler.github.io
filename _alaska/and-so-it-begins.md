@@ -6,6 +6,8 @@ title: And So It Begins
 subtitle: In which a house is sold and a bus is bought
 project: alaska
 seq: 1
+date: 2018-09-01
+hidenav: true
 tags:
 - background
 - alaska

@@ -6,11 +6,18 @@ title: The Route
 subtitle: In which 4300 miles of road are carefully planned
 project: alaska
 seq: 3
+date: 2018-09-03
+hidenav: true
 tags:
 - alaska
 - route
 - highway
 ---
+
+{% comment %}
+[link-text](link-url){:target="_blank"}
+{% comment %}_{% endcomment %}
+{% endcomment %}
 
 As one might imagine, planning your route for a weekend outing is a lot
 different than planning your route to Alaska. As I have learned from Greg, all
@@ -41,4 +48,31 @@ planning:
   can even accept a huge bus, what are the facilities like, etc.
 * *Weather:* Always an issue on a road trip, but when the road extends into Alaska during
   the start of the winter season, the matter of weather becomes more critical.
+Aided by of the plethora of online mapping services available these days, and the 
+[Good Sam Club's](https://www.goodsam.com/club/){:target="_blank"} {% comment %}_{% endcomment %}
+online trip planner, Greg has put together a route that satisfies all his requirements. Here is a list of the major, and a few minor, waypoints along the way.
+
+* [Birmingham, Alabama](https://en.wikipedia.org/wiki/Birmingham,_Alabama){:target="_blank"}
+* [Memphis, Tennessee](https://en.wikipedia.org/wiki/Memphis,_Tennessee){:target="_blank"}
+* [Springfield, Missouri](https://en.wikipedia.org/wiki/Springfield,_Missouri){:target="_blank"}
+* [Kansas City, Missoiri](https://en.wikipedia.org/wiki/Kansas_City,_Missouri){:target="_blank"}
+* [Omaha, Nebraska](https://en.wikipedia.org/wiki/Omaha,_Nebraska){:target="_blank"}
+* [Sioux Falls, South Dakota](https://en.wikipedia.org/wiki/Sioux_Falls,_South_Dakota){:target="_blank"}
+* [Rapid City, South Dakota](https://en.wikipedia.org/wiki/Rapid_City,_South_Dakota){:target="_blank"}
+* [Billings, Montana](https://en.wikipedia.org/wiki/Billings,_Montana){:target="_blank"}
+* [Helena, Montana](https://en.wikipedia.org/wiki/Helena,_Montana){:target="_blank"}
+* [Calgary, Alberta](https://en.wikipedia.org/wiki/Calgary){:target="_blank"}
+* [Edmonton, Alberta](https://en.wikipedia.org/wiki/Edmonton){:target="_blank"}
+* [Grand Prairie, Alberta](https://en.wikipedia.org/wiki/Grande_Prairie){:target="_blank"}
+* [Fort Nelson, British Columbia](https://en.wikipedia.org/wiki/Fort_Nelson,_British_Columbia){:target="_blank"}
+* [Whitehorse, Yukon](https://en.wikipedia.org/wiki/Whitehorse,_Yukon){:target="_blank"}
+* [Destruction Bay, Yukon](https://en.wikipedia.org/wiki/Destruction_Bay){:target="_blank"}
+* [Snag Junction, Yukon](https://en.m.wikipedia.org/wiki/Snag,_Yukon){:target="_blank"}
+* [Tok, Alaska](https://en.wikipedia.org/wiki/Tok,_Alaska){:target="_blank"}
+* [Glennallen, Alaska](https://en.wikipedia.org/wiki/Glennallen,_Alaska){:target="_blank"}
+{% comment %}_{% endcomment %}
+
+
+I have put the route and waypoints into [Google Maps](https://drive.google.com/open?id=1QToP1iDFNB0dEk8pjlkAVyIr8ThzeEdh&usp=sharing){:target="_blank"}{% comment %}_{% endcomment %}
+Bookmark this map, and I will be updating the progress on this map each day.
 
