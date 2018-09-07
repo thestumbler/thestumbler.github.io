@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 avatar: "/images/ak/bus-for-sale-front.jpg"
 bigimg: "/images/ak/house611-front.jpg"
 title: And So It Begins
@@ -7,7 +7,9 @@ subtitle: In which a house is sold and a bus is bought
 project: alaska
 seq: 1
 date: 2018-09-01
-hidenav: true
+hidenav: false
+show-avatar: true
+comments: true
 tags:
 - background
 - alaska

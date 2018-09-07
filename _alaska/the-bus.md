@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 avatar: "/images/ak/bus-for-sale-front.jpg"
 bigimg: "/images/ak/bus-for-sale.jpg"
 title: The Bus
@@ -7,7 +7,9 @@ subtitle: In which a 35-year-old bus is made ready for Alaska
 project: alaska
 seq: 2
 date: 2018-09-02
-hidenav: true
+show-avatar: true
+comments: true
+hidenav: false
 tags:
 - background
 - alaska

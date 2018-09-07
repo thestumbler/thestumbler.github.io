@@ -48,7 +48,7 @@ avatar: "/images/thestumbler.jpg"
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Chris Lott
-  email: "rclott@tratechsol.com"
+  email: "rclott@hiwaay.net"
   facebook: technobar
   github: TheStumbler
   twitter: SeoulBigChris
@@ -105,7 +105,7 @@ defaults:
     values:
       layout: "page"
       show-avatar: true
-      comments: true
+      comments: false
 
 # Exclude these files from production site
 exclude:

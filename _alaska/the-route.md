@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 avatar: "/images/ak/bus-for-sale-front.jpg"
 bigimg: "/images/ak/map-route-earth.png"
 title: The Route
@@ -7,7 +7,9 @@ subtitle: In which 4300 miles of road are carefully planned
 project: alaska
 seq: 3
 date: 2018-09-03
-hidenav: true
+comments: true
+hidenav: false
+show-avatar: true
 tags:
 - alaska
 - route
