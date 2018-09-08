@@ -11,11 +11,11 @@
   <meta name="description" content="{{ page.subtitle }}">
   {% endif %}
 
-  {% if page.header-img %}
-      <meta property="og:image" content="{{ site.url }}/{{ page.header-img }}" />
+  {% if page.bigimg %}
+      <meta property="og:image" content="{{ site.url }}/{{ page.bigimg }}" />
   {% endif %}
 
-  <meta property="og:description" content="{{ page.subtitle }}" />
+  <meta property="og:description" content="{{ page.title }}: {{ page.subtitle }}" />
 
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
   
