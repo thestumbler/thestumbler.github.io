@@ -1,0 +1,34 @@
+---
+layout: post
+avatar: "/images/ak/bus-for-sale-front.jpg"
+bigimg: "/images/ak/day1-greg-at-the-door.jpg"
+title: The First Day
+subtitle: In which the adventure begins
+project: alaska
+seq: 4
+date: 2018-09-15
+comments: true
+hidenav: false
+show-avatar: true
+tags:
+- alaska
+- route
+- highway
+---
+
+{% comment %}
+[link-text](link-url){:target="_blank"}
+{% comment %}_{% endcomment %}
+{% endcomment %}
+
+[Christopher Columbus](https://en.wikipedia.org/wiki/Christopher_Columbus)
+took seven years to prepare for his departure across the Atlantic Ocean.
+[Capt. Meriwether Lewis and 2nd Lt. William Clark](https://en.wikipedia.org/wiki/Lewis_and_Clark_Expedition)
+took only six months to prepare for their Expedition.
+Greg took two months, and only missed his targeted departure date by a few days.
+Not bad, in comparison.
+
+
+I have put the route and waypoints into [Google Maps](https://drive.google.com/open?id=1QToP1iDFNB0dEk8pjlkAVyIr8ThzeEdh&usp=sharing)
+Bookmark this map, and I will be updating the progress on this map each day.
+
