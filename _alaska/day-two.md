@@ -90,7 +90,9 @@ After a quick stop at the
 they proceeded along
 [I-29](https://en.wikipedia.org/wiki/Interstate_29){:target="_blank"}{% comment %}_{% endcomment %} northbound to 
 [Rock Port, Missouri](https://en.wikipedia.org/wiki/Rock_Port,_Missouri){:target="_blank"}{% comment %}_{% endcomment %},
-where they spent the night, thus wrapping up day two of the journey.
+where they spent the night.
+Rock Port is the first city in the United States to be entirely powered by electric wind turbines.
+Thus ends day two.
 
 
 
