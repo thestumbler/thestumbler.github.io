@@ -5,7 +5,7 @@ bigimg: "/images/ak/day2-spring-river.jpg"
 title: The Second Day
 subtitle: In which Kansas City BBQ is consumed
 project: alaska
-seq: 4
+seq: 5
 date: 2018-09-15
 comments: true
 hidenav: false
