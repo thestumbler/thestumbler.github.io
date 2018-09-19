@@ -12,7 +12,7 @@ show-avatar: true
 
 {% assign articlesInOrder = site.alaska | sort: 'seq' %} 
 
-{% for article in articlesInOrder %}
+{% for article in articlesInOrder reversed %}
 	  <h2 class="post-title">
       {{ article.seq }}.  
       <a href="{{ article.url }}">{{ article.title }}</a>
