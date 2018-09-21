@@ -79,8 +79,8 @@ and
 
 ## Day Seven Statistics
 
-To | [Oacoma, South Dakota](https://en.wikipedia.org/wiki/Oacoma,_South_Dakota){:target="_blank"}{% comment %}_{% endcomment %}
-From | [Moorcroft, Wyoming](https://en.wikipedia.org/wiki/Moorcroft,_Wyoming){:target="_blank"}{% comment %}_{% endcomment %}
+From | [Oacoma, South Dakota](https://en.wikipedia.org/wiki/Oacoma,_South_Dakota){:target="_blank"}{% comment %}_{% endcomment %}
+To | [Moorcroft, Wyoming](https://en.wikipedia.org/wiki/Moorcroft,_Wyoming){:target="_blank"}{% comment %}_{% endcomment %}
 Departure | 10:00 am 
 Arrival | 4:00 pm 
 Duration | 7 hr
