@@ -21,6 +21,7 @@ tags:
 
 
 * Updated [Google Map](https://drive.google.com/open?id=1QToP1iDFNB0dEk8pjlkAVyIr8ThzeEdh&usp=sharing){:target="_blank"}{% comment %}_{% endcomment %} 
+* Added [Trip Statistics](https://docs.google.com/spreadsheets/d/10dU6wdnTdiuMCkSWJ2yGe1PNjGZWlgYcmZ_RCtjf--8/edit?usp=sharing){:target="_blank"}{% comment %}_{% endcomment %}
 
 Today the crew went the farthest since day 2.
 No excitement, just lots of scenery - and bugs:
