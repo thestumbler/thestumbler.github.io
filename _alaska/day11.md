@@ -28,6 +28,19 @@ in a 35-year-old vehicle. Environmental controls were restored, and heat is now
 available in abundance. The crew made good time today, arriving to bivouac in
 [Valleyview, Alberta](https://en.wikipedia.org/wiki/Valleyview,_Alberta){:target="_blank"}{% comment %}_{% endcomment %}.
 
+![d11-edmonton-snow](/images/ak/d11-edmonton-snow.jpg)
+*Snow in Edmonton*
+
+![d11-found-money](/images/ak/d11-found-money.jpg)
+*BusCom Alex found some Monopoly money*
+
+![d11-sky-and-trestle](/images/ak/d11-sky-and-trestle.jpg)
+*Trestle Bridge Ahead*
+
+![d11-edmonton-trestle](/images/ak/d11-edmonton-trestle.jpg)
+*Sure Hope We Fit Under*
+
+
 ## The Route
 
 ![d11-elevation](/images/ak/d11-elevation.png)
