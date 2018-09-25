@@ -61,7 +61,7 @@ bringing them to
 their destination on this eleventh day of the journey.
 
 
-## Day Ten Statistics
+## Day Eleven Statistics
 
 From | [Innisfail, Alberta](https://en.wikipedia.org/wiki/Innisfail,_Alberta){:target="_blank"}{% comment %}_{% endcomment %}
 To | [Valleyview, Alberta](https://en.wikipedia.org/wiki/Valleyview,_Alberta){:target="_blank"}{% comment %}_{% endcomment %},
@@ -69,5 +69,5 @@ Departure | 10:00 am
 Arrival | 6:00 pm 
 Duration | 8 hr
 Distance | 330 mi / 530 km
-Daily Speed | 47 mph / 66 kph
+Daily Speed | 41 mph / 66 kph
 
