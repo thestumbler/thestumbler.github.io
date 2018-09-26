@@ -88,5 +88,5 @@ Departure | 10:00 am
 Arrival | 6:00 pm 
 Duration | 8 hr
 Distance | 290 mi / 465 km
-Daily Speed | 36 mph / 44 kph
+Daily Speed | 36 mph / 58 kph
 

@@ -10,6 +10,7 @@ show-avatar: true
 ---
 
 <h3>
+  <ul style="list-style-type:circle">
   <li><a
    href="https://drive.google.com/open?id=1QToP1iDFNB0dEk8pjlkAVyIr8ThzeEdh&usp=sharing"
    target="_blank">
@@ -18,14 +19,19 @@ show-avatar: true
    href="https://docs.google.com/spreadsheets/d/10dU6wdnTdiuMCkSWJ2yGe1PNjGZWlgYcmZ_RCtjf--8/edit?usp=sharing"
    target="_blank">
       Trip Statistics</a></li>
+  </ul>
 </h3>
 
 {% assign articlesInOrder = site.alaska | sort: 'seq' %} 
 
 {% for article in articlesInOrder reversed %}
 	  <h2 class="post-title">
+      {% comment %}
       {{ article.seq }}.  
+      {% endcomment %}
+      <li>
       <a href="{{ article.url }}">{{ article.title }}</a>
+      </li>
     </h2>
 {% endfor %}
 
