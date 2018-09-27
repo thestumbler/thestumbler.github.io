@@ -48,7 +48,7 @@ the end of the trip is well in sight.
 
 ## The Route
 
-![d14-elevation](/images/ak/d13-elevation.png)
+![d14-elevation](/images/ak/d14-elevation.png)
 *Day fourteen, route elevation profile*
 
 Today's route continued entirely along
