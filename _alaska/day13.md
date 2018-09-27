@@ -19,6 +19,7 @@ tags:
 {% comment %}_{% endcomment %}
 {% endcomment %}
 
+**EDITED, additional photos**
 
 *Banner photo from the crew observation deck at Toad River Lodge*
 
@@ -47,6 +48,32 @@ The crew also encountered a variety of local species, including moose and elk.
 One alien elk tried to block the passage of Eagle 83.  Fortunately, as
 communications officer, BusCom Alex speaks fluent Wapiti and was able to warn
 the alien of the consequences of greeting a 30-ton vehicle moving at 40 mph.
+
+![d13b-airport](/images/ak/d13b-airport.jpg)
+*An Airport!*
+
+![d13b-aliens-1](/images/ak/d13b-aliens-1.jpg)
+*Encountering alien species*
+
+![d13b-beautiful-scenery](/images/ak/d13b-beautiful-scenery.jpg)
+
+![d13b-example-of-highway](/images/ak/d13b-example-of-highway.jpg)
+
+![d13b-ground-tree-mountain-sky](/images/ak/d13b-ground-tree-mountain-sky.jpg)
+
+![d13b-lake-2](/images/ak/d13b-lake-2.jpg)
+
+![d13b-lake](/images/ak/d13b-lake.jpg)
+
+![d13b-mountains-sky](/images/ak/d13b-mountains-sky.jpg)
+
+![d13b-river-2](/images/ak/d13b-river-2.jpg)
+
+![d13b-road-trees-sky](/images/ak/d13b-road-trees-sky.jpg)
+
+![d13b-sunset](/images/ak/d13b-sunset.jpg)
+
+![d13b-todd-river-plaque](/images/ak/d13b-todd-river-plaque.jpg)
 
 The crew made it to the
 [Toad River Lodge](https://toadriverlodge.com){:target="_blank"}{% comment %}_{% endcomment %}
