@@ -42,6 +42,12 @@ Some scenery from today's journey:
 ![d16-young-fast-eddys](/images/ak/d16-young-fast-eddys.jpg)
 
 
+## Expedition Sound Track
+
+Eagle 83's official Musical Entertainment Officer, DJ Hitch, has declared
+the official sound track for the expedition:
+
+<iframe width="678" height="381" src="https://www.youtube.com/embed/OVi0JpvMZtk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## The Route
 
