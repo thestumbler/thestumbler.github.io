@@ -19,6 +19,7 @@ tags:
 {% comment %}_{% endcomment %}
 {% endcomment %}
 
+**EDIT: Photos added below**
 
 * [Google Map](https://drive.google.com/open?id=1QToP1iDFNB0dEk8pjlkAVyIr8ThzeEdh&usp=sharing){:target="_blank"}{% comment %}_{% endcomment %} 
 * [Trip Statistics](https://docs.google.com/spreadsheets/d/10dU6wdnTdiuMCkSWJ2yGe1PNjGZWlgYcmZ_RCtjf--8/edit?usp=sharing){:target="_blank"}{% comment %}_{% endcomment %}
@@ -28,6 +29,22 @@ far side of planet Aishihik (pronounced like "big-fat-solid-rock"). Before enter
 the crew communicated their progress, and will overnight at 
 [Haines Junction, Yukon Territory](https://en.wikipedia.org/wiki/Haines_Junction){:target="_blank"}{% comment %}_{% endcomment %}.
 Hopefully photos and details will be added to this post tomorrow when the crew re-establishes communications.
+
+![d15-clear-skies](/images/ak/d15-clear-skies.jpg)
+*Clear Skies*
+
+![d15-fog-ahead](/images/ak/d15-fog-ahead.jpg)
+*Fog Ahead*
+
+![d15-power-pole-mountain](/images/ak/d15-power-pole-mountain.jpg)
+*Trees, Mountains, and Snow*
+
+![d15-snow-on-the-mountains](/images/ak/d15-snow-on-the-mountains.jpg)
+*Snow-capped mountains seen via poultry-manure-coated windshield*
+
+![d15-teslin-river](/images/ak/d15-teslin-river.jpg)
+*Teslin River*
+
 
 It is not inconceivable that the crew will arrive in 
 [Glennallen](https://en.wikipedia.org/wiki/Glennallen,_Alaska){:target="_blank"}{% comment %}_{% endcomment %}
