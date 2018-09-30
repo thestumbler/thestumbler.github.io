@@ -1,0 +1,16 @@
+set term x11 persist
+set key autotitle columnhead
+set datafile separator tab
+set title "Temperature"
+set xlabel "Date"
+set ylabel "Average"
+set grid
+plot \
+  'weather.txt' using "seq":"avg0" linewidth 2 with lines, \
+  'weather.txt' using "seq":"low0" linewidth 2 with lines, \
+  'weather.txt' using "seq":"high0" linewidth 2 with lines, \
+  'weather.txt' using "seq":"avg0":"low0":"high0" linewidth 2 with yerrorbars, \
+  'weather.txt' using (column("seq")+0.25):"avg" linewidth 2 with lines, \
+  'weather.txt' using (column("seq")+0.25):"low" linewidth 2 with lines, \
+  'weather.txt' using (column("seq")+0.25):"high" linewidth 2 with lines, \
+  'weather.txt' using (column("seq")+0.25):"avg":"low":"high" linewidth 2 with yerrorbars

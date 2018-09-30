@@ -1,4 +1,4 @@
-0	date	city	high0	low0	avg0	precip0	dew-pt0	wind0	press0	daylong0	high	low	avg	precip	dew-pt	wind	press	daylong	lat	long	lat-string	lon-string	elev
+seq	date	city	high0	low0	avg0	precip0	dew-pt0	wind0	press0	daylong0	high	low	avg	precip	dew-pt	wind	press	daylong	lat	long	lat-string	lon-string	elev
 1	Thu 13-Sep-18	"Trumann, AR"	94	74	84	0.05	72	16	30.12	12:27	88	67	78	0.00	71	7	30.13	12:29	35.6732700	-90.5202100	N 35? 40'  24''	W 090? 31'  13''	226
 2	Fri 14-Sep-18	"Rock Port, MO"	95	72	84	0	72	14	30.07	12:25	89	67	78	0.00	67	17	30.08	12:31	40.4108600	-95.5148600	N 40? 24'  39''	W 095? 30'  53''	942
 3	Sat 15-Sep-18	"Mitchell, SD"	97	71	84	0	69	17	29.97	12:23	94	64	79	0.00	66	25	30.03	12:31	43.7094270	-98.0298000	N 43? 42'  34''	W 098? 01'  47''	1312
