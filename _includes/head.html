@@ -97,6 +97,7 @@
   <meta property="og:url" content="{{ site.url }}{{ page.url | remove: '/index.html' | remove: '.html' }}" />
   {% endif %}
   
+  {% comment %}
   {% if page.fb-img %}
   <meta property="og:image" content="{{ page.fb-img }}" />
   {% elsif site.avatar %}
@@ -104,5 +105,6 @@
   {% else %}
   <meta property="og:image" content="" />
   {% endif %}
+  {% endcomment %}
   
 </head>
