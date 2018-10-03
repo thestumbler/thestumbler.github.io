@@ -1,16 +1,112 @@
-set term x11 persist
+# set term x11 persist font "arial,12"
+set terminal pngcairo font 'Verdana,14' size 1280,720 
+
+
+reset
 set key autotitle columnhead
 set datafile separator tab
-set title "Temperature"
-set xlabel "Date"
-set ylabel "Average"
 set grid
+set output "trip-temps.png"
+set title "Daily Temperatures (Average, High, Low)"
+set xlabel "Day"
+set ylabel "Temperature (deg F)"
+set xrange [0.5:18.9]
+set xtics 1
+set bars 2
+set boxwidth 1
 plot \
-  'weather.txt' using "seq":"avg0" linewidth 2 with lines, \
-  'weather.txt' using "seq":"low0" linewidth 2 with lines, \
-  'weather.txt' using "seq":"high0" linewidth 2 with lines, \
-  'weather.txt' using "seq":"avg0":"low0":"high0" linewidth 2 with yerrorbars, \
-  'weather.txt' using (column("seq")+0.25):"avg" linewidth 2 with lines, \
-  'weather.txt' using (column("seq")+0.25):"low" linewidth 2 with lines, \
-  'weather.txt' using (column("seq")+0.25):"high" linewidth 2 with lines, \
-  'weather.txt' using (column("seq")+0.25):"avg":"low":"high" linewidth 2 with yerrorbars
+  'weather.txt' using (column("seq")-0.1):"avg0":"low0":"high0" title "Birminghan, AL" linewidth 1.5 with yerrorlines, \
+  'weather.txt' using (column("seq")+0.1):"avg":"low":"high" title "North Pole, AK" linewidth 1.5 with yerrorlines, \
+  'weather.txt' using "seq":(12):"city" title "" with labels left rotate by 60
+
+reset
+set key autotitle columnhead
+set datafile separator tab
+set grid
+set output "trip-precip.png"
+set title "Daily Precipitaion"
+set xlabel "Day"
+set ylabel "Precipitation (inches)"
+set xrange [0.5:18.9]
+set xtics 1
+set yrange [-0.5:2.0]
+set ytics 0.25
+set style fill solid
+set boxwidth 0.25
+plot \
+  'weather.txt' using (column("seq")-0.125):"precip0" title "Birminghan, AL" with boxes, \
+  'weather.txt' using (column("seq")+0.125):"precip" title "North Pole, AK" with boxes, \
+  'weather.txt' using "seq":(-0.45):"city" title "" with labels left rotate by 60
+
+reset
+set key autotitle columnhead
+set datafile separator tab
+set grid
+set output "trip-dewpoint.png"
+set title "Daily Dew Point"
+set xlabel "Day"
+set ylabel "Dew Point (deg F)"
+set xrange [0.5:18.9]
+set xtics 1
+set yrange[-30:100]
+set ytics 10
+set style fill solid
+set boxwidth 0.25
+plot \
+  'weather.txt' using (column("seq")-0.125):"dew-pt0" title "Birminghan, AL" with boxes, \
+  'weather.txt' using (column("seq")+0.125):"dew-pt" title "North Pole, AK" with boxes, \
+  'weather.txt' using "seq":(-29):"city" title "" with labels left rotate by 90
+
+reset
+set key autotitle columnhead
+set datafile separator tab
+set grid
+set output "trip-barometer.png"
+set title "Barometric Pressure"
+set xlabel "Day"
+set ylabel "Pressure (inches Hg)"
+set yrange [24:32]
+set xrange [0.5:18.9]
+set xtics 1
+plot \
+  'weather.txt' using (column("seq")-0.125):"press0" title "Birminghan, AL" linewidth 2 with line, \
+  'weather.txt' using (column("seq")+0.125):"press" title "North Pole, AK" linewidth 2 with line, \
+  'weather.txt' using "seq":(24.3):"city" title "" with labels left rotate by 90
+
+reset
+set key autotitle columnhead
+set datafile separator tab
+set grid
+set output "trip-winds.png"
+set title "Wind Speed"
+set xlabel "Day"
+set ylabel "Velocity (mph)"
+set yrange [-5:30]
+set xrange [0.5:18.9]
+set xtics 1
+plot \
+  'weather.txt' using (column("seq")-0.125):"wind0" title "Birminghan, AL" linewidth 2 with line, \
+  'weather.txt' using (column("seq")+0.125):"wind" title "North Pole, AK" linewidth 2 with line, \
+  'weather.txt' using "seq":(-4.6):"city" title "" with labels left rotate by 60
+
+
+# reset
+# set key autotitle columnhead
+# set datafile separator tab
+# set grid
+# set xlabel "Day"
+# set xrange [0.5:18.9]
+# set xtics 1
+# set ytics time
+# set yrange {"11:00":"13:00"]
+# set format y "%H:%M"
+# set output "trip-daylong.png"
+# set title "Length of Day"
+# set ylabel "Time (HH:MM)"
+# plot \
+#   'weather.txt' using (column("seq")-0.125):(timecolum(column("daylong0"), "%H:%M")) title "Birminghan, AL" linewidth 2 with line, \
+#   'weather.txt' using (column("seq")+0.125):(timecolum(column("daylong"), "%H:%M")) title "North Pole, AK" linewidth 2 with line, \
+#   'weather.txt' using "seq":(-4.6):"city" title "" with labels left rotate by 60
+
+
+

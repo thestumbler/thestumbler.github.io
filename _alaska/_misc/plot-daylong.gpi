@@ -1,0 +1,29 @@
+set term x11 persist font "arial,12"
+#set terminal pngcairo font 'Verdana,14' size 1280,
+
+reset
+#set output "trip-daylong.png"
+set key autotitle columnhead
+set datafile separator tab
+set grid
+set xlabel "Day"
+set xrange [0.5:18.9]
+set xtics 1
+
+#set timefmt "%H:%M"
+#set format y "%H:%M"
+#set ytics format "%H:%M" time
+#set yrange ["10:00":"13:00"]
+#set ytics ("10:00", "11:00", "12:00", "13:00")
+
+set title "Length of Day"
+set ylabel "Time (HH:MM)"
+plot \
+  'weather.txt' using (column("seq")-0.125):(timecolumn(column("day0"), "%H:%M")) title "Birminghan, AL" linewidth 2 with line, \
+  'weather.txt' using (column("seq")+0.125):(timecolumn(column("day"), "%H:%M")) title "North Pole, AK" linewidth 2 with line
+
+
+#  'weather.txt' using "seq":timecolumn(("11:00", "%H:%M")):"city" title "" with labels left rotate by 60
+
+
+
