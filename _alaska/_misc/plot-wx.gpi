@@ -97,16 +97,13 @@ plot \
 # set xlabel "Day"
 # set xrange [0.5:18.9]
 # set xtics 1
-# set ytics time
-# set yrange {"11:00":"13:00"]
-# set format y "%H:%M"
+# set ylabel "Time (HH:MM)"
+# set ydata time
+# set timefmt "%H:%M"
+# set yrange ["00:00":"14:00"]
 # set output "trip-daylong.png"
 # set title "Length of Day"
-# set ylabel "Time (HH:MM)"
 # plot \
-#   'weather.txt' using (column("seq")-0.125):(timecolum(column("daylong0"), "%H:%M")) title "Birminghan, AL" linewidth 2 with line, \
-#   'weather.txt' using (column("seq")+0.125):(timecolum(column("daylong"), "%H:%M")) title "North Pole, AK" linewidth 2 with line, \
+#   'weather.txt' using (column("seq")-0.125):"day0" title "Birminghan, AL" linewidth 2 with line, \
+#   'weather.txt' using (column("seq")+0.125):"day" title "North Pole, AK" linewidth 2 with line, \
 #   'weather.txt' using "seq":(-4.6):"city" title "" with labels left rotate by 60
-
-
-

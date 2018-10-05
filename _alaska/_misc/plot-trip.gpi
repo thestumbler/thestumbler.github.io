@@ -1,0 +1,71 @@
+# set term x11 persist font "arial,12"
+set terminal pngcairo font 'Verdana,14' size 1280,720 
+
+
+reset
+set key autotitle columnhead
+set datafile separator tab
+set grid
+set output "trip-speed.png"
+set title "Trip Speed (Daily, Cumulative)"
+set xlabel "Day"
+set ylabel "Speed (mph)"
+set y2label "Speed (kph)"
+set xrange [0.5:18.9]
+set xtics 1
+set yrange [0:60]
+set ytics 5 nomirror
+set y2tics 10
+set link y2 via y/0.6213711922 inverse y*0.6213711922
+plot \
+  'trip-english.txt' using "seq":"v-daily" title "Daily" linewidth 1.5 with lines, \
+  'trip-english.txt' using "seq":"v-cuml" title "Cumulative" linewidth 1.5 with lines, \
+  'trip-english.txt' using "seq":(2.5):"location" title "" with labels left rotate by 60
+
+reset
+set key autotitle columnhead
+set datafile separator tab
+set grid
+set output "trip-daily.png"
+set title "Daily Stats (Distance, Time)"
+set xlabel "Day"
+set xrange [0.5:18.9]
+set xtics 1
+set ylabel "Time (hh:mm)"
+set ydata time
+set timefmt "%H:%M"
+set ytics nomirror
+set ytics "01:00"
+set yrange ["00:00":"15:00"]
+set y2label "Distance (miles)"
+set y2range [-200:600]
+set y2tics 100
+plot \
+  'trip-english.txt' using "seq":"t-daily" axes x1y1 title "Time" linewidth 1.5 with lines, \
+  'trip-english.txt' using "seq":"x-daily" axes x1y2 title "Distance" linewidth 1.5 with lines, \
+  'trip-english.txt' using "seq":(-180):"location" axes x1y2 title "" with labels left rotate by 60
+
+reset
+set key autotitle columnhead
+set datafile separator tab
+set grid
+set output "trip-cumul.png"
+set title "Cumulative Distance Stats (Travelled, To-go)"
+set xlabel "Day"
+set ylabel "Miles"
+set y2label "Kilometers"
+set xrange [0.5:18.9]
+set xtics 1
+set yrange [-1000:6000]
+set ytics 500 nomirror
+set link y2 via y/0.6213711922 inverse y*0.6213711922
+set y2range [-2000:9000]
+set y2tics 1000
+plot \
+  'trip-english.txt' using "seq":"x-cuml" title "Distance travelled" linewidth 1.5 with lines, \
+  'trip-english.txt' using "seq":"x-togo" title "Distance to-go" linewidth 1.5 with lines, \
+  'trip-english.txt' using "seq":"x-trip-tot" title "Total trip distance" linewidth 1.5 with lines, \
+  'trip-english.txt' using "seq":(-980):"location" title "" with labels left rotate by 60
+
+
+
