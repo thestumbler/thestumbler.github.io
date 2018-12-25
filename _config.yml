@@ -7,6 +7,15 @@ plugins: [jekyll-paginate]
 url: "http://thestumbler.github.io"
 baseurl: ""
 
+# Output options (more information on Jekyll's site)
+timezone: "Asia/Seoul"
+markdown: kramdown
+highlighter: rouge
+paginate: 5
+
+
+kramdown:
+  input: GFM
 # Name of website
 title: TheStumbler
 
@@ -14,24 +23,77 @@ title: TheStumbler
 description:  Follow the posts of an American engineer living and working in Seoul.
 tagline:      Ramblings of The Stumbling Engineer
 
+
+collections_dir: docs
 collections:
-    squid:
-      output: true
-    alaska:
-      output: true
+  pages:
+    output: true
+    permalink: /:title.html
+  posts:
+    output: true
+    permalink: /blog/:year-:month-:day-:title.html
+  projs:
+    output: true
+    permalink: /projs/:categories/:title.html
+  keynote:
+    output: false
+
+
+
+# Default YAML values (more information on Jekyll's site)
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true  # add comments to all blog posts
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      show-avatar: true
+      comments: false
+
+#  -
+#    scope:
+#      path: ""
+#      type: "projects"
+#    values:
+#      layout: "page"
+#      show-avatar: true
+#      comments: false
+#      permalink: /:categories/:year/:month/:day/:title:output_ext
+#      # permalink: /project/:title/
+
+# Exclude these files from production site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+  - Vagrantfile
+  - Rakefile
+  - kmz
+  - misc
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
-  Alaska by Bus: "alaska-by-bus/"
   Projects:
+    - Model RR: "modelrr/"
     - Serial Squid: "serial-squid/"
+    - Alaska by Bus: "alaska-by-bus/"
 #  Github:
 #    - Serial Squid: "https://github.com/thestumbler/serial-squid"
 #    - Alpha, for OpenSCAD: "https://github.com/thestumbler/alpha"
 #    - This blog: "https://github.com/thestumbler/thestumbler.github.io"
-  Me: "aboutme"
+  Me: "about"
 #  Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
 #    - Learn markdown: "http://www.markdowntutorial.com/"
@@ -43,7 +105,6 @@ navbar-links:
 avatar: "/images/thestumbler.jpg"
 
 # --- Footer options --- #
-
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
@@ -77,89 +138,50 @@ disqus: "thestumbler"
 # Fill in your Google Analytics ID to track your website using GA
 google_analytics: "UA-78413133-1"
 
-# --- Don't need to touch anything below here (but you can if you want) --- #
-
-# Output options (more information on Jekyll's site)
-timezone: "Asia/Seoul"
-markdown: kramdown
-highlighter: rouge
-permalink: /:year-:month-:day-:title/
-paginate: 5
-
-kramdown:
-  input: GFM
-
-# Default YAML values (more information on Jekyll's site)
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      comments: true  # add comments to all blog posts
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-      show-avatar: true
-      comments: false
-
-# Exclude these files from production site
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - CNAME
-  - Vagrantfile
-
 # prose.io config
-prose:
-  rooturl: '_posts'
-  media: 'images'
-  ignore:
-    - 404.html
-    - LICENSE
-    - feed.xml
-    - _config.yml
-    - /_layouts
-    - /_includes
-    - /css
-    - /images
-    - /js
-  metadata:
-    _posts:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Post title"
-          placeholder: "Title"
-          alterable: true
-      - name: "subtitle"
-        field:
-          element: "textarea"
-          label: "Subtitle"
-          placeholder: "A description of your post."
-          alterable: true
-      - name: "date"
-        field:
-          element: "text"
-          label: "Date"
-          help: "Enter date of post."
-          placeholder: "yyyy-mm-dd"
-          alterable: true
-      - name: "published"
-        field:
-          element: "checkbox"
-          label: "Publish"
-          help: "Check to publish post, uncheck to hide."
+# prose:
+#  rooturl: '_posts'
+#  media: 'images'
+#  ignore:
+#    - 404.html
+#    - LICENSE
+#    - feed.xml
+#    - _config.yml
+#    - /_layouts
+#    - /_includes
+#    - /css
+#    - /images
+#    - /js
+#  metadata:
+#    _posts:
+#      - name: "layout"
+#        field:
+#          element: "hidden"
+#          value: "post"
+#      - name: "title"
+#        field:
+#          element: "text"
+#          label: "Post title"
+#          placeholder: "Title"
+#          alterable: true
+#      - name: "subtitle"
+#        field:
+#          element: "textarea"
+#          label: "Subtitle"
+#          placeholder: "A description of your post."
+#          alterable: true
+#      - name: "date"
+#        field:
+#          element: "text"
+#          label: "Date"
+#          help: "Enter date of post."
+#          placeholder: "yyyy-mm-dd"
+#          alterable: true
+#      - name: "published"
+#        field:
+#          element: "checkbox"
+#          label: "Publish"
+#          help: "Check to publish post, uncheck to hide."
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189

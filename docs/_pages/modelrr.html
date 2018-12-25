@@ -1,0 +1,22 @@
+---
+layout: page
+category: modelrr
+title: Model Railroad Controller
+subtitle: Analysis of HO-Gauge Analog Controller
+avatar: "/images/modelrr/engine.jpg"
+bigimg: "/images/modelrr/pwa-zoomed-two.jpg"
+---
+
+{% assign articlesInOrder = site.collections | sort: 'seq' %} 
+
+{% for article in articlesInOrder reversed %}
+	  <h2 class="post-title">
+      {% comment %}
+      {{ article.seq }}.  
+      {% endcomment %}
+      <li>
+      <a href="{{ article.url }}">{{ article.title }}</a>
+      </li>
+    </h2>
+{% endfor %}
+
