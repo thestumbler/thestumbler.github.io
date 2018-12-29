@@ -1,17 +1,18 @@
 ---
 layout: page
-category: modelrr
 title: Package Arrived
 description: Analysis of N-Gauge Analog Controller using KiCAD & SPICE
 avatar: "/images/modelrr/engine-nose.jpg"
 bigimg: "/images/modelrr/train-at-night.jpg"
-seq: 1
 date: 2018-12-10
 comments: true
 tags:
 - kicad
 - spice
 - n-gauge
+collection: proj
+category: modelrr
+seq: 1
 ---
 
 An acquaintance of mine recently asked if I could help him repair a kit

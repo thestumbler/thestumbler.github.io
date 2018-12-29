@@ -11,8 +11,9 @@ baseurl: ""
 timezone: "Asia/Seoul"
 markdown: kramdown
 highlighter: rouge
-paginate: 5
 
+paginate: 5
+paginate_path: '/blog/page:num/'
 
 kramdown:
   input: GFM
@@ -22,7 +23,6 @@ title: TheStumbler
 # Short description of your site
 description:  Follow the posts of an American engineer living and working in Seoul.
 tagline:      Ramblings of The Stumbling Engineer
-
 
 collections_dir: docs
 collections:
@@ -57,17 +57,14 @@ defaults:
       layout: "page"
       show-avatar: true
       comments: false
-
-#  -
-#    scope:
-#      path: ""
-#      type: "projects"
-#    values:
-#      layout: "page"
-#      show-avatar: true
-#      comments: false
-#      permalink: /:categories/:year/:month/:day/:title:output_ext
-#      # permalink: /project/:title/
+  -
+    scope:
+      path: "projs"
+      type: "pages"
+    values:
+      layout: "page"
+      show-avatar: true
+      comments: false
 
 # Exclude these files from production site
 exclude:
@@ -86,19 +83,20 @@ exclude:
 # List of links in the navigation bar
 navbar-links:
   Projects:
-    - Model RR: "modelrr/"
-    - Serial Squid: "serial-squid/"
-    - Alaska by Bus: "alaska-by-bus/"
+    - Model RR: 'projs/modelrr.html'
+    - Serial Squid: "projs/serial-squid.html"
+    - Alaska by Bus: "projs/alaska-by-bus.html"
 #  Github:
 #    - Serial Squid: "https://github.com/thestumbler/serial-squid"
 #    - Alpha, for OpenSCAD: "https://github.com/thestumbler/alpha"
 #    - This blog: "https://github.com/thestumbler/thestumbler.github.io"
-  Me: "about"
+  Me: "about.html"
+  Blog: "blog/"
 #  Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
 #    - Learn markdown: "http://www.markdowntutorial.com/"
 #    - GitHub Pages: "https://github.com/thestumbler"
-  Home: "http://thestumbler.github.io"
+#  Home: "http://thestumbler.github.io"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -109,7 +107,7 @@ avatar: "/images/thestumbler.jpg"
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Chris Lott
-  email: "rclott@hiwaay.net"
+  email: "chris@thestumbler.io"
   facebook: technobar
   github: TheStumbler
   twitter: SeoulBigChris
@@ -137,51 +135,6 @@ disqus: "thestumbler"
 
 # Fill in your Google Analytics ID to track your website using GA
 google_analytics: "UA-78413133-1"
-
-# prose.io config
-# prose:
-#  rooturl: '_posts'
-#  media: 'images'
-#  ignore:
-#    - 404.html
-#    - LICENSE
-#    - feed.xml
-#    - _config.yml
-#    - /_layouts
-#    - /_includes
-#    - /css
-#    - /images
-#    - /js
-#  metadata:
-#    _posts:
-#      - name: "layout"
-#        field:
-#          element: "hidden"
-#          value: "post"
-#      - name: "title"
-#        field:
-#          element: "text"
-#          label: "Post title"
-#          placeholder: "Title"
-#          alterable: true
-#      - name: "subtitle"
-#        field:
-#          element: "textarea"
-#          label: "Subtitle"
-#          placeholder: "A description of your post."
-#          alterable: true
-#      - name: "date"
-#        field:
-#          element: "text"
-#          label: "Date"
-#          help: "Enter date of post."
-#          placeholder: "yyyy-mm-dd"
-#          alterable: true
-#      - name: "published"
-#        field:
-#          element: "checkbox"
-#          label: "Publish"
-#          help: "Check to publish post, uncheck to hide."
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189

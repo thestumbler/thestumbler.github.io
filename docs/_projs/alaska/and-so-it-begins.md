@@ -1,5 +1,6 @@
 ---
 layout: post
+collection: projs
 category: alaska
 avatar: "/images/ak/bus-for-sale-front.jpg"
 bigimg: "/images/ak/house611-front.jpg"

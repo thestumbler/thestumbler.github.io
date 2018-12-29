@@ -7,6 +7,9 @@ bigimg: "/images/ak/glennallen-alaska.jpg"
 hidenav: false
 comments: false
 show-avatar: true
+collection: pages
+category: alaska
+permalink: 'projs/alaska-by-bus.html'
 ---
 
 <h3>
@@ -22,16 +25,19 @@ show-avatar: true
   </ul>
 </h3>
 
-{% assign articlesInOrder = site.collections | sort: 'seq' %} 
-
-{% for article in articlesInOrder reversed %}
-	  <h2 class="post-title">
-      {% comment %}
-      {{ article.seq }}.  
-      {% endcomment %}
-      <li>
-      <a href="{{ article.url }}">{{ article.title }}</a>
-      </li>
-    </h2>
+{% for doc in site.documents reversed %} 
+  {% if doc.collection ==  'projs' %}
+    {% if doc.category ==  page.category %}
+      <h2 class="post-title">
+        {% comment %}
+        {{ article.seq }}.  
+        {% endcomment %}
+        <li>
+        <a href="{{ doc.url }}">{{ doc.title }}</a>
+        </li>
+      </h2>
+    {% endif %}
+  {% endif %}
 {% endfor %}
+
 

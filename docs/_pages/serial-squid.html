@@ -4,15 +4,25 @@ title: The Serial Squid
 subtitle: Design Notes
 avatar: "/images/serial-squid-icon512.png"
 bigimg: "/images/serial-squid-big-image.png"
+collection: pages
+category: serial-squid
+permalink: 'projs/serial-squid.html'
 ---
 
 
-{% assign articlesInOrder = site.collections | sort: 'seq' %} 
-
-{% for article in articlesInOrder %}
-	  <h2 class="post-title">
-      {{ article.seq }}.  
-      <a href="{{ article.url }}">{{ article.title }}</a>
-    </h2>
+{% for doc in site.documents reversed %} 
+  {% if doc.collection ==  'projs' %}
+    {% if doc.category ==  page.category %}
+      <h2 class="post-title">
+        {% comment %}
+        {{ article.seq }}.  
+        {% endcomment %}
+        <li>
+        <a href="{{ doc.url }}">{{ doc.title }}</a>
+        </li>
+      </h2>
+    {% endif %}
+  {% endif %}
 {% endfor %}
+
 

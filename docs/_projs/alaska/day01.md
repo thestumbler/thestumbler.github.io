@@ -4,6 +4,7 @@ avatar: "/images/ak/bus-for-sale-front.jpg"
 bigimg: "/images/ak/day1-greg-at-the-door.jpg"
 title: The First Day
 subtitle: In which the adventure begins
+collection: projs
 category: alaska
 seq: 4
 date: 2018-09-14

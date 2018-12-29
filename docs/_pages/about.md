@@ -3,7 +3,7 @@ layout: page
 title: About TheStumbler
 subtitle: Ramblings of The Stumbling Engineer
 bigimg: /images/the-global-stumbler.jpg
-permalink: /about/
+permalink: /about.html
 ---
 
 ## Chris Lott, Senior Electronics Engineer

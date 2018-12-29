@@ -1,9 +1,11 @@
 ---
 layout: page
-category: modelrr
 title: Model Railroad Start/Stop Controller
 description: Analysis of N-Gauge Analog Controller using KiCAD & SPICE
 publish: false
+collection: proj
+category: modelrr
+seq: 3
 ---
 
 An acquaintance of mine recently asked if I could help him repair a kit
