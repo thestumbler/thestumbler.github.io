@@ -4,7 +4,7 @@ plugins: [jekyll-paginate]
 
 # url is the full website URL
 # baseurl is the website's URL without the hostname
-url: "http://thestumbler.github.io"
+url: "https://thestumbler.github.io"
 baseurl: ""
 
 # Output options (more information on Jekyll's site)
