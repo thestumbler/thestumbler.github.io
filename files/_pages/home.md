@@ -22,7 +22,7 @@ permalink: '/index.html'
   
     <div class="post-entry">
       {{ post.excerpt }}
-      <-- {{ post.content | truncatewords: 50 | strip_html | xml_escape}} -->
+      <!-- {{ post.content | truncatewords: 50 | strip_html | xml_escape}} -->
 	  <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
     </div>
   
