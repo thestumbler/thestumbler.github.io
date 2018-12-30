@@ -1,17 +1,17 @@
 ---
 layout: page
-title: Model Railroad Controller
-subtitle: Analysis of HO-Gauge Analog Controller
-avatar: "/images/modelrr/engine.jpg"
-bigimg: "/images/modelrr/pwa-zoomed-two.jpg"
-seq: 0
+title: The Serial Squid
+subtitle: Design Notes
+avatar: "/images/serial-squid-icon512.png"
+bigimg: "/images/serial-squid-big-image.png"
 collection: pages
-category: modelrr
-permalink: 'projs/modelrr.html'
+category: serial-squid
+permalink: 'projs/serial-squid.html'
 ---
 
 
-{% for doc in site.documents reversed %} 
+{% assign sorted = site.documents | sort: 'seq' %}
+{% for doc in sorted %} 
   {% if doc.collection ==  'projs' %}
     {% if doc.category ==  page.category %}
       <h2 class="post-title">

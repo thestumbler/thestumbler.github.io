@@ -35,9 +35,9 @@ collections:
   projs:
     output: true
     permalink: /projs/:categories/:title.html
-  keynote:
-    output: false
-
+  files_english:
+    output: true
+    permalink: /projs/english/scripts/:name.html
 
 
 # Default YAML values (more information on Jekyll's site)
@@ -83,15 +83,17 @@ exclude:
 # List of links in the navigation bar
 navbar-links:
   Projects:
-    - Model RR: 'projs/modelrr.html'
     - Serial Squid: "projs/serial-squid.html"
-    - Alaska by Bus: "projs/alaska-by-bus.html"
+    - Model RR: 'projs/modelrr.html'
+  Me: 
+    - About-Me: "about/aboutme.html"
+  Blog:
+    - The-Stumbler: "blog/"
+    - Alaska-by-Bus: "projs/alaska-by-bus.html"
 #  Github:
 #    - Serial Squid: "https://github.com/thestumbler/serial-squid"
 #    - Alpha, for OpenSCAD: "https://github.com/thestumbler/alpha"
 #    - This blog: "https://github.com/thestumbler/thestumbler.github.io"
-  Me: "about.html"
-  Blog: "blog/"
 #  Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
 #    - Learn markdown: "http://www.markdowntutorial.com/"

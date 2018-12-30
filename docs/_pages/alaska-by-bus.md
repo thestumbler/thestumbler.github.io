@@ -25,7 +25,9 @@ permalink: 'projs/alaska-by-bus.html'
   </ul>
 </h3>
 
-{% for doc in site.documents reversed %} 
+{% assign byseq = site.documents | sort: 'seq' %}
+{% assign sorted =  byseq | reverse %}
+{% for doc in sorted %} 
   {% if doc.collection ==  'projs' %}
     {% if doc.category ==  page.category %}
       <h2 class="post-title">

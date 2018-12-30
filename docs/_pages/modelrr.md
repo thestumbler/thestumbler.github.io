@@ -1,16 +1,17 @@
 ---
 layout: page
-title: The Serial Squid
-subtitle: Design Notes
-avatar: "/images/serial-squid-icon512.png"
-bigimg: "/images/serial-squid-big-image.png"
+title: Model Railroading
+subtitle: Analysis of Various Widgets
+avatar: "/images/modelrr/engine.jpg"
+bigimg: "/images/modelrr/pwa-zoomed-two.jpg"
+seq: 0
 collection: pages
-category: serial-squid
-permalink: 'projs/serial-squid.html'
+category: modelrr
+permalink: 'projs/modelrr.html'
 ---
 
-
-{% for doc in site.documents reversed %} 
+{% assign sorted = site.documents | sort: 'seq' %}
+{% for doc in sorted %} 
   {% if doc.collection ==  'projs' %}
     {% if doc.category ==  page.category %}
       <h2 class="post-title">

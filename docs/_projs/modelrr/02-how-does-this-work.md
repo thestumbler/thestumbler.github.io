@@ -1,5 +1,7 @@
 ---
 layout: page
+collection: proj
+category: modelrr
 title: How does this thing work?
 description: Let's re-draw a circuit
 seq: 2
@@ -9,9 +11,7 @@ tags:
 - kicad
 - spice
 - n-gauge
-collection: proj
-category: modelrr
-seq: 1
+published: false
 ---
 
 

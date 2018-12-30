@@ -24,7 +24,8 @@ pagination:
     </p>
   
     <div class="post-entry">
-      {{ post.content | truncatewords: 50 | strip_html | xml_escape}}
+      {{ post.excerpt }}
+      <!-- {{ post.excerpt | truncatewords: 50 | strip_html | xml_escape}} -->
 	  <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
     </div>
   
