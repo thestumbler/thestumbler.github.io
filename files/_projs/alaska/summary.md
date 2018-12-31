@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 avatar: "/images/ak/bus-for-sale-front.jpg"
 bigimg: "/images/ak/statistics.jpg"
 title: Trip Data
@@ -11,6 +11,7 @@ comments: true
 hidenav: false
 show-avatar: true
 published: false
+permalink: '/alaska-by-bus/:name'
 ---
 
 {% comment %}

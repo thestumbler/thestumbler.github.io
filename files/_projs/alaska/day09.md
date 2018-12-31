@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 avatar: "/images/ak/bus-for-sale-front.jpg"
 bigimg: "/images/ak/day9-leaving-montana.jpg"
 title: The Ninth Day
@@ -10,8 +10,7 @@ date: 2018-09-22
 comments: true
 hidenav: false
 show-avatar: true
-tags:
-
+permalink: '/alaska-by-bus/:name'
 ---
 
 {% comment %}

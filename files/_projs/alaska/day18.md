@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 avatar: "/images/ak/bus-for-sale-front.jpg"
 bigimg: "/images/ak/d18-river-sky-sun.jpg"
 title: The Eighteenth Day
@@ -10,8 +10,7 @@ date: 2018-10-01
 comments: true
 hidenav: false
 show-avatar: true
-tags:
-
+permalink: '/alaska-by-bus/:name'
 ---
 
 {% comment %}

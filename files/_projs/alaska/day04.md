@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 avatar: "/images/ak/bus-for-sale-front.jpg"
 bigimg: "/images/ak/day4-thunderbird-lodge.jpg"
 title: The Fourth Day
@@ -10,11 +10,7 @@ date: 2018-09-17
 comments: true
 hidenav: false
 show-avatar: true
-tags:
-- samuari
-- south-dakota
-- repairs
-- jackelope
+permalink: '/alaska-by-bus/:name'
 ---
 
 {% comment %}

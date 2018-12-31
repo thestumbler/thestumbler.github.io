@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 avatar: "/images/ak/bus-for-sale-front.jpg"
 bigimg: "/images/ak/ak0-house-front.jpg"
 title: The End?
@@ -10,8 +10,7 @@ date: 2018-10-15
 comments: true
 hidenav: false
 show-avatar: true
-tags:
-
+permalink: '/alaska-by-bus/:name'
 ---
 
 With a little sadness, I must report that the Eagle 83 mission has come to an end.

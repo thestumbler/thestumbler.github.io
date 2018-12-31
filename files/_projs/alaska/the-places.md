@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 avatar: "/images/ak/bus-for-sale-front.jpg"
 bigimg: "/images/ak/places-pins.jpg"
 title: The Places and Roads
@@ -11,10 +11,7 @@ comments: true
 hidenav: false
 show-avatar: true
 published: true
-tags:
-- places
-- states
-- cities
+permalink: '/alaska-by-bus/:name'
 ---
 
 <style type="text/css">

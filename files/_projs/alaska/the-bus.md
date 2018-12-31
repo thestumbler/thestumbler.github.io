@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 collection: proj
 category: alaska
 avatar: "/images/ak/bus-for-sale-front.jpg"
@@ -11,12 +11,7 @@ date: 2018-09-02
 show-avatar: true
 comments: true
 hidenav: false
-tags:
-- background
-- alaska
-- bus
-- trailways
-- eagle
+permalink: '/alaska-by-bus/:name'
 ---
 
 {% comment %}

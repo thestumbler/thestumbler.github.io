@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 avatar: "/images/ak/bus-for-sale-front.jpg"
 bigimg: "/images/ak/day5-hammock.jpg"
 title: The Fifth Day
@@ -10,10 +10,7 @@ date: 2018-09-18
 comments: true
 hidenav: false
 show-avatar: true
-tags:
-- samuari
-- south-dakota
-- repairs
+permalink: '/alaska-by-bus/:name'
 ---
 
 {% comment %}

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 avatar: "/images/ak/bus-for-sale-front.jpg"
 bigimg: "/images/ak/day2-spring-river.jpg"
 title: The Second Day
@@ -10,9 +10,7 @@ date: 2018-09-15
 comments: true
 hidenav: false
 show-avatar: true
-tags:
-- alaska
-- route
+permalink: '/alaska-by-bus/:name'
 ---
 
 {% comment %}

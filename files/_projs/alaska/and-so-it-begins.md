@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 collection: projs
 category: alaska
 avatar: "/images/ak/bus-for-sale-front.jpg"
@@ -11,11 +11,7 @@ date: 2018-09-01
 hidenav: false
 show-avatar: true
 comments: true
-tags:
-- background
-- alaska
-- bus
-- hambaugh
+permalink: '/alaska-by-bus/:name'
 ---
 
 

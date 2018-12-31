@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 avatar: "/images/ak/bus-for-sale-front.jpg"
 bigimg: "/images/ak/statistics.jpg"
 title: The Statistics
@@ -10,10 +10,7 @@ date: 2018-10-05
 comments: true
 hidenav: false
 show-avatar: true
-tags:
-- alaska
-- weather
-- cold
+permalink: '/alaska-by-bus/:name'
 ---
 
 {% comment %}

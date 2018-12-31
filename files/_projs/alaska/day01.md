@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 avatar: "/images/ak/bus-for-sale-front.jpg"
 bigimg: "/images/ak/day1-greg-at-the-door.jpg"
 title: The First Day
@@ -11,9 +11,7 @@ date: 2018-09-14
 comments: true
 hidenav: false
 show-avatar: true
-tags:
-- alaska
-- route
+permalink: '/alaska-by-bus/:name'
 ---
 
 {% comment %}

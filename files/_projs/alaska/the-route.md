@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 avatar: "/images/ak/bus-for-sale-front.jpg"
 bigimg: "/images/ak/map-route-earth.png"
 title: The Route
@@ -10,10 +10,7 @@ date: 2018-09-03
 comments: true
 hidenav: false
 show-avatar: true
-tags:
-- alaska
-- route
-- highway
+permalink: '/alaska-by-bus/:name'
 ---
 
 {% comment %}

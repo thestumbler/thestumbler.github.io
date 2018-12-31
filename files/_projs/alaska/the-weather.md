@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 avatar: "/images/ak/bus-for-sale-front.jpg"
 bigimg: "/images/ak/al-sleet.jpg"
 title: The Weather
@@ -10,10 +10,7 @@ date: 2018-10-03
 comments: true
 hidenav: false
 show-avatar: true
-tags:
-- alaska
-- weather
-- cold
+permalink: '/alaska-by-bus/:name'
 ---
 
 {% comment %}
