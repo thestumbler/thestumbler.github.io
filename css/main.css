@@ -4,7 +4,98 @@
 /* --- rclott: Added for image captions --- */
 img + em { display: block; text-align: center; }
 
-/* --- General --- */
+/* --- rclott: made my own table format for mini-resume */
+/* --- rclott: Added for vertical writing --- */
+/*** see this reference:
+https://css-tricks.com/rotated-table-column-headers/
+https://www.jimmybonney.com/articles/column_header_rotation_css/
+***/
+
+table#mytable {
+  border-collapse: collapse;
+  border: none;
+}
+
+table#mytable thead tr {
+  border: none;
+}
+
+table#mytable thead th {
+  border: none;
+}
+
+table#mytable thead th.norotate {
+  border: none;
+}
+table#mytable thead th.spacer {
+  border: none;
+  width: 2px;
+}
+
+table#mytable thead th {
+  /* Something you can count on */
+  height: 250px;
+  white-space: nowrap;
+}
+table#mytable thead th > div {
+  transform: 
+    /*** original 45 degs, 30 pix ***/
+    /* Magic Numbers */
+    /* translate(25px, 51px) */
+    /* 45 is really 360 - 45 */
+    /* rotate(315deg); */
+
+    /* Magic Numbers */
+    translate(8px, 112px)
+    /* 45 is really 360 - 45 */
+    rotate(300deg);
+  width: 10px;
+}
+table#mytable thead th > div > span {
+  border-bottom: 1px solid #ccc;
+  padding: 5px 10px;
+}
+
+
+/* background-color: #F0E68C; /* x11-khaki */
+/* background-color: #9ACD32; /* x11-lime-green */ 
+
+table#mytable tbody td {
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+table#mytable tbody td.row-header {
+  padding: 0 10px;
+  border-bottom: 1px solid #ccc;
+}
+table#mytable tbody td.row-header-odd {
+  background-color: #F5DEB3; /* x11-wheat */ */
+}
+table#mytable tbody td.row-header-even {
+  background-color: #FFC0CB; /* x11-pink */
+}
+table#mytable tbody td.row-spacer {
+  width: 2px;
+  border: 0px;
+}
+
+
+table#mytable tbody tr.odd {
+  background-color: #F5DEB3; /* x11-wheat */ */
+}
+table#mytable tbody tr.even {
+  background-color: #FFC0CB; /* x11-pink */
+}
+
+table#mytable tbody td.yes {
+  color: green;
+}
+
+table#mytable tbody td.no {
+}
+
+
 
 body {
   font-family: 'Lora', 'Times New Roman', serif;
