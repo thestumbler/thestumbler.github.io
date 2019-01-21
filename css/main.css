@@ -46,53 +46,94 @@ table#mytable thead th > div {
     /* rotate(315deg); */
 
     /* Magic Numbers */
-    translate(8px, 112px)
+    translate(16px, 116px)
     /* 45 is really 360 - 45 */
     rotate(300deg);
   width: 10px;
 }
 table#mytable thead th > div > span {
-  border-bottom: 1px solid #ccc;
-  padding: 5px 10px;
+  border-bottom: 2px solid #a0522d;
+  padding: 0px 0px;
 }
-
 
 /* background-color: #F0E68C; /* x11-khaki */
 /* background-color: #9ACD32; /* x11-lime-green */ 
+/* background-color: #6495ED; /* x11-cornflower-blue */
+/* background-color: #B0C4DE; /* x11-light-steel-blue */
+
 
 table#mytable tbody td {
+  height: 50px;
   text-align: center;
-  border: 1px solid #ccc;
+  border: none;
 }
 
-table#mytable tbody td.row-header {
-  padding: 0 10px;
-  border-bottom: 1px solid #ccc;
-}
 table#mytable tbody td.row-header-odd {
+  padding: 0px 0px;
+  width: 175px;
+  border-left: 2px solid #a0522d;
+  border-top: 2px solid #a0522d;
+  border-bottom: 2px solid #a0522d;
   background-color: #F5DEB3; /* x11-wheat */ */
 }
-table#mytable tbody td.row-header-even {
-  background-color: #FFC0CB; /* x11-pink */
-}
-table#mytable tbody td.row-spacer {
-  width: 2px;
-  border: 0px;
+
+table#mytable tbody td.row-header-odd img {
+  padding-left: 2px;
+  height: 92px;
+  float: left;
+  vertical-align: bottom;
 }
 
+table#mytable tbody td.row-header-even {
+  padding: 0px 0px;
+  width: 175px;
+  border-right: 2px solid #a0522d;
+  border-top: 2px solid #a0522d;
+  border-bottom: 2px solid #a0522d;
+  background-color: #B0C4DE; /* x11-light-steel-blue */
+}
+
+table#mytable tbody td.row-header-even img {
+  padding-right: 2px;
+  height: 92px;
+  float: right;
+  vertical-align: bottom;
+}
+
+table#mytable tbody td.row-spacer-left {
+  border-top: 2px solid #a0522d;
+  border-bottom: 2px solid #a0522d;
+  border-right: 2px solid #a0522d;
+  width: 2px;
+}
+
+table#mytable tbody td.row-spacer-right {
+  border-top: 2px solid #a0522d;
+  border-bottom: 2px solid #a0522d;
+  border-left: 2px solid #a0522d;
+  width: 2px;
+}
 
 table#mytable tbody tr.odd {
   background-color: #F5DEB3; /* x11-wheat */ */
 }
 table#mytable tbody tr.even {
-  background-color: #FFC0CB; /* x11-pink */
+  background-color: #B0C4DE; /* x11-light-steel-blue */
 }
 
 table#mytable tbody td.yes {
+  border-left: 2px solid #a0522d;
+  border-right: 2px solid #a0522d;
+  border-top: 2px solid #a0522d;
+  border-bottom: 2px solid #a0522d;
   color: green;
 }
 
 table#mytable tbody td.no {
+  border-left: 2px solid #a0522d;
+  border-right: 2px solid #a0522d;
+  border-top: 2px solid #a0522d;
+  border-bottom: 2px solid #a0522d;
 }
 
 
