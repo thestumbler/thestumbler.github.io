@@ -1,8 +1,11 @@
 ---
 layout: page
-collection: page
+title: About Me
+subtitle: Hardware Experience
+bigimg: /images/the-global-stumbler.jpg
+show-avatar: true
 category: about
-title: Hardware Design Skills
+collection: pages
 permalink: /about/skills-hw.html
 published: true
 ---
