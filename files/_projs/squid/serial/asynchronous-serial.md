@@ -5,7 +5,7 @@ bigimg: "/images/serial-squid-big-image.png"
 title: Asynchronous Serial Interfaces
 subtitle: The Serial Squid
 category: serial-squid
-seq: 3
+seq: 4
 draft: true
 tags:
 - squid

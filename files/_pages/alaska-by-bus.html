@@ -25,8 +25,7 @@ permalink: '/alaska-by-bus/index.html'
   </ul>
 </h3>
 
-{% assign byseq = site.documents | sort: 'seq' %}
-{% assign sorted =  byseq | reverse %}
+{% assign sorted = site.documents | sort: 'seq' %}
 {% for doc in sorted %} 
   {% if doc.collection ==  'projs' %}
     {% if doc.category ==  page.category %}

@@ -9,12 +9,15 @@ layout: default
     {% if page.book.rank %} • Rank: {{ page.book.rank }}{% endif %}{% if page.collection %}<br>Collection: {{ page.collection }}{% endif %}{% if page.tags %}<br>Tags: {{ page.tags }}{% endif %}</p>
   </header>
 
+  {% include post-prevnext.html %}
+  {% include post-prevnext-buttons.html %}
   <div class="post-content" itemprop="articleBody">
     <img width="200" hspace="10" src="{{ page.book.cover }}" style="float:right"/>
     {{ content | markdownify }}
   </div>
-
+  {% include post-prevnext-buttons.html %}
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
   {% endif %}
+
 </article>

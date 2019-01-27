@@ -8,6 +8,7 @@ collection: pages
 category: about
 permalink: /about/skills-prod.html
 published: true
+seq: 0
 ---
 
 

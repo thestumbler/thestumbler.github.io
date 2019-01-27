@@ -5,7 +5,7 @@ bigimg: "/images/serial-squid-big-image.png"
 title: Introducing the Serial Squid
 subtitle: The Serial Squid
 category: serial-squid
-seq: 1
+seq: 2
 tags:
 - squid
 - design

@@ -8,6 +8,7 @@ category: about
 collection: pages
 permalink: /about/skills-hw.html
 published: true
+seq: 0
 ---
 
 ![Hardware Design Skills](/images/about/skills-hw.png)

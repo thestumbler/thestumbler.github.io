@@ -5,7 +5,7 @@ bigimg: "/images/serial-squid-big-image.png"
 title: On Drawing Squids and Circuits
 subtitle: The Serial Squid
 category: serial-squid
-seq: 0
+seq: 1
 ---
 A squid?  An octopus?  Well, a squid typically has 8 legs (or arms) and 2 tentacles, whereas an octopus has just 8 legs.  Believe it or not, they are a popular dish here in Seoul. Squids are eaten in all sorts of ways: stir fried with an atomic pepper sauce, boiled in stews, dried into jerky, and even raw with sesame oil.  It's not one of my favorite foods, but it has served as the inspiration for my next project.
 

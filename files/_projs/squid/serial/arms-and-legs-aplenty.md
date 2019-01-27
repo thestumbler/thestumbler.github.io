@@ -5,7 +5,7 @@ bigimg: "/images/serial-squid-big-image.png"
 subtitle: The Serial Squid
 title: Arms and Legs Aplenty
 category: serial-squid
-seq: 2
+seq: 3
 ---
 
 ## Protocol and Connector Diagram

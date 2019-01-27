@@ -1,0 +1,28 @@
+<!--
+from this site:
+http://stories.upthebuzzard.com/jekyll_notes/2017-02-19-prev-and-next-within-a-jekyll-collection.html
+
+-->
+
+{% if page.seq != "0" %}
+  {% assign docs = site.documents | where:"collection", "projs" | where:"category", page.category | sort: 'seq' %}
+
+  {% if docs.size > 1 %}
+    {% assign prevurl = docs.last.url %}
+    {% assign nexturl = docs.first.url %}
+  {% endif %}
+
+  {% for doc in docs %}
+    {% if doc.title == page.title %}
+      {% unless forloop.first %}
+        {% assign prevurl = prev.url %}
+      {% endunless %}
+      {% unless forloop.last %}
+        {% assign next = docs[forloop.index] %}
+        {% assign nexturl = next.url %}
+      {% endunless %}
+    {% endif %}
+    {% assign prev = doc %}
+  {% endfor %}
+{% endif %}
+

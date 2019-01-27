@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Package Arrived
-description: Analysis of N-Gauge Analog Controller using KiCAD & SPICE
+subtitle: An HO-Gauge Controller analysed using SPICE
 avatar: "/images/modelrr/engine-nose.jpg"
-bigimg: "/images/modelrr/train-at-night.jpg"
+bigimg: "/images/modelrr/pwa-zoomed-two.jpg"
 date: 2018-12-10
 comments: true
 tags:
@@ -15,7 +15,7 @@ category: modelrr
 seq: 1
 ---
 
-An acquaintance of mine recently asked if I could help him repair a kit
+A friend of mine recently asked if I could help him repair a kit
 he had assembled.  This device is used on model railroad layouts, on a 
 siding, for example, to automatically slowdown and stop the train, wait
 for a period of time, and then start back up again.  The idea is to 

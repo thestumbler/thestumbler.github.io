@@ -8,6 +8,7 @@ category: about
 collection: pages
 permalink: /about/skills-sw.html
 published: true
+seq: 0
 ---
 
 
