@@ -1,0 +1,11 @@
+---
+title:
+subtitle: 
+layout: page
+avatar:
+bigimg:
+seq: 0
+collection: pages
+category:
+permalink: 'projs/something.html'
+---

@@ -71,6 +71,23 @@ defaults:
     values:
       pdf: true
 
+# These settings used by my Rakefile, modified from:
+# https://github.com/gummesson/jekyll-rake-boilerplate.git
+post:
+  template: files/_posts/_post.txt
+  extension: md
+page:
+  template: files/_pages/_page.txt
+  extension: md
+editor: '/Applications/MacVim.app/contents/MacOS/Vim -g'
+
+git:
+  branch: master
+transfer:
+  command: rsync
+  settings: -av
+  source: _site/
+  destination: ~/Git/username.github.com/
 
 # Exclude these files from production site
 exclude:
