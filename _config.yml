@@ -107,6 +107,7 @@ navbar-links:
   Projects:
     - Serial-Squid: "projs/serial-squid.html"
     - Model-RR: 'projs/modelrr.html'
+    - Ham-Radio: 'projs/hamradio.html'
   Me: 
     - About-Me: "about/aboutme.html"
   Blog:
