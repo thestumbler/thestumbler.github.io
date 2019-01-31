@@ -17,7 +17,7 @@ to consider - train detection.  There are two methods commonly employed.
 One is a reed relay activated by a magnet mounted on the engine.  The other
 is an infrared detector mounted under the tracks.  My friend opted for 
 the latter, and he got the [Heathcote IRDOT](https://heathcote-electronics.co.uk/irdot1.html)
-units [(pdf-manual)](/pdfs/modelrr/irdot-manual.pdf).
+units [(pdf-manual)](/myfiles/modelrr/irdot-manual.pdf).
 
 ![heathcote-irdot-pwa](/images/modelrr/irdot-top.jpg)
 *Heathcote IRDOT Train Detection Sensor*

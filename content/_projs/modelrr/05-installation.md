@@ -35,7 +35,7 @@ There was one documentation concern regarding installation of the unit.
 *SA5-S Connection Diagram from the Manual*
 
 
-Despite the detailed [manual](/pdfs/modelrr/sa5-factory-manual.pdf),
+Despite the detailed [manual](/myfiles/modelrr/sa5-factory-manual.pdf),
 it wasn't initially clear to us how it should be
 connected, specifically with regards to if / how many isolated track segments
 are needed.  And the final answer was a little counter-intuitive at first.
@@ -44,7 +44,7 @@ It turns out that many turnouts operate mechanically and electrically like a swi
 As a result, no isolated track sections are required.  There are some turnouts which don't 
 behave like this, and that's why isolated sections are shown in the manual. The manual
 didn't have all the connections in one place, so I made an overall drawing showing the
-complete installation [pdf-version](/pdfs/modelrr/sas5-setup-diagram.pdf)
+complete installation [pdf-version](/myfiles/modelrr/sas5-setup-diagram.pdf)
 
 ![sa5s-setup-diagram-redrawn](/images/modelrr/sas5-setup-diagram.png)
 *Redrawn SA5-S Setup Diagram*

@@ -24,7 +24,7 @@ title: TheStumbler
 description:  Follow the posts of an American engineer living and working in Seoul.
 tagline:      Ramblings of The Stumbling Engineer
 
-collections_dir: files
+collections_dir: content
 collections:
   pages:
     output: true
@@ -35,7 +35,7 @@ collections:
   projs:
     output: true
     permalink: /projs/:categories/:title.html
-  files_english:
+  content_english:
     output: true
     permalink: /projs/english/scripts/:name.html
 
@@ -67,17 +67,17 @@ defaults:
       comments: false
   - 
     scope:
-      path: "pdfs"
+      path: "myfiles"
     values:
-      pdf: true
+      myfiles: true
 
 # These settings used by my Rakefile, modified from:
 # https://github.com/gummesson/jekyll-rake-boilerplate.git
 post:
-  template: files/_posts/_post.txt
+  template: content/_posts/_post.txt
   extension: md
 page:
-  template: files/_pages/_page.txt
+  template: content/_pages/_page.txt
   extension: md
 editor: '/Applications/MacVim.app/contents/MacOS/Vim -g'
 

@@ -109,7 +109,7 @@ it's time to experiment some with different variations of antennas.
 
 * [Article on the G5RV](http://www.astrosurf.com/luxorion/qsl-g5rv.htm)
 * [G5RV Patterns, 1](https://www.ar15.com/forums/outdoors/G5RV_radiation_pattern_question/22-681844/?)
-* [G5RV Patterns, 2]http://www.radioqrv.com/documents/RadioQRV%20-%20G5RV%20Antenna%20Patterns%20-%20Complete.pdf
+* [G5RV Patterns, 2](http://www.radioqrv.com/documents/RadioQRV%20-%20G5RV%20Antenna%20Patterns%20-%20Complete.pdf)
 * [Twin-Lead Ladder Line](https://en.wikipedia.org/wiki/Twin-lead)
 * [Ladder Line Calculator](https://hamwaves.com/zc.circular/en/index.html)
 
