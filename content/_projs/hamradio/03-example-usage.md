@@ -102,5 +102,4 @@ $ cckill
 $ ccnec filename.nc
 ```
 Wash, rinse, and repeat.
-```
 
