@@ -120,17 +120,18 @@ $ /Applications/cocoaNEC\ 2.0.app/Contents/MacOS/cocoaNEC\ 2.0 filename.nc &
 ```
 
 That fires up cocoaNEC as a child process, so you can keep using the terminal window
-for editing, etc. When you're done, you can kill cocoaNEC by sending it SIGTERM:
+for editing, etc. When you're done, you can kill cocoaNEC by sending it SIGKILL:
+(Edit: sending SIGKILL seems to clean it up more thoroughly than SIGTERM):
 
 ```bash
-$ pkill -SIGTERM cocoaNEC
+$ pkill -SIGKILL cocoaNEC
 ```
 
 If we want to avoid the messages from the background task, add this to your
 `.bash_aliases` file as follows:
 
 ```bash
-alias cckill='pkill -SIGTERM cocoaNEC'`
+alias cckill='pkill -SIGKILL cocoaNEC'`
 function ccnec() {
   ( /Applications/cocoaNEC\ 2.0.app/Contents/MacOS/cocoaNEC\ 2.0 "$@" & )
 }

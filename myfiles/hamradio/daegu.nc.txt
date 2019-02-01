@@ -50,7 +50,6 @@ model ( "daegu-site" ) {
   // ### the antenna you want needs to be the last one in this list
   g5rv_elem_set( 15.55, 0.0, 8.84 ); // g5rv, full size
   g5rv_elem_set( 7.775, 0.0, 4.42 ); // g5rv, half-size
-  ant_angle=-30.0;
 
   //================
   // Setup Dipole antenna details:
@@ -64,7 +63,6 @@ model ( "daegu-site" ) {
   // ### the antenna you want needs to be the last one in this list
   dipole_elem_set(  5.0, 0.0 ); // 20m dipole
   dipole_elem_set( 10.0, 2.0 ); // 40m dipole
-  ant_angle=-30.0;
 
   //================
   // Setup Rhombic antenna details:
@@ -77,7 +75,6 @@ model ( "daegu-site" ) {
   // 1. feedline /termination gap
   // ### the antenna you want needs to be the last one in this list
   rhom_elem_set( 0.027562 );
-  ant_angle=0.0;
 
   //================
   // Setup Horizontal Loop antenna details:
@@ -90,7 +87,6 @@ model ( "daegu-site" ) {
   // 1. feedline /termination gap
   // ### the antenna you want needs to be the last one in this list
   loop_elem_set( 0.027562 );
-  ant_angle=0.0;
 
 //************************************************************************
 // Setup the Daegu site details
@@ -101,6 +97,7 @@ model ( "daegu-site" ) {
   // * apex placed at top of pole mounted on hut
   //****************
   bldg_angle = 45.0;
+  ant_angle=-30.0;
   height = bldg_apex_height_get();
   // prepare the transformation matrices
   tb = rotateZ(bldg_angle);
@@ -129,9 +126,9 @@ model ( "daegu-site" ) {
   // ### uncomment the kind of antenna you want to simulate
   //     (only one can be uncommented)
   // driven=make_g5rv(ta);
-  // driven=make_dipole(ta);
+  driven=make_dipole(ta);
   // driven=make_rhombic(ta);
-  driven=make_loop(ta);
+  // driven=make_loop(ta);
 
   voltageFeed( driven, 1.0, 0.0 ) ;
 
@@ -142,13 +139,13 @@ model ( "daegu-site" ) {
 // ### uncomment the frequency(ies) you want to plot
 //     (only four frequencies can be plotted)
 //   addFrequency(  1.900 ); // 160m
-     addFrequency(  3.500 ); // 80m
+//   addFrequency(  3.500 ); // 80m
 //   addFrequency(  5.348 ); // 60m
      addFrequency(  7.100 ); // 40m
 //   addFrequency( 10.140 ); // 30m
-     addFrequency( 14.100 ); // 20m
+//   addFrequency( 14.100 ); // 20m
 //   addFrequency( 18.100 ); // 17m
-     addFrequency( 21.100 ); // 15m
+//   addFrequency( 21.100 ); // 15m
 //   addFrequency( 24.925 ); // 12m
 //   addFrequency( 28.100 ); // 10m
 
