@@ -1,0 +1,191 @@
+/* --- rclott: made my own table format for mini-resume */
+/* --- rclott: Added for vertical writing --- */
+/*** see this reference:
+https://css-tricks.com/rotated-table-column-headers/
+https://www.jimmybonney.com/articles/column_header_rotation_css/
+***/
+
+table#mytable {
+  border-collapse: collapse;
+  border: none;
+  table-layout:fixed;
+  padding: 0px 0px 0px 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+table#mytable thead tr {
+  border: none;
+}
+
+table#mytable thead th {
+  border: none;
+  padding: 0px 0px 0px 0px;
+  height: 200px;
+}
+
+table#mytable thead th.spacer {
+  padding: 0px 0px 0px 0px;
+  width: 15px;
+}
+
+table#mytable thead th.norotate {
+  border: none;
+}
+
+table#mytable thead th > div {
+  width: 30px;
+  white-space: nowrap;
+  transform: 
+    /* Magic Numbers */
+    translate(12px, 82px)
+    /* 45 is really 360 - 45 */
+    rotate(300deg);
+}
+table#mytable thead th > div > span {
+  font-size: 16px;
+  border-bottom: 2px solid #a0522d;
+  padding: 0px 0px;
+}
+
+/*** colors used in the table ***/
+/* background-color: #F0E68C; /* x11-khaki */
+/* background-color: #9ACD32; /* x11-lime-green */ 
+/* background-color: #6495ED; /* x11-cornflower-blue */
+/* background-color: #B0C4DE; /* x11-light-steel-blue */
+/* padding: top right bottom left */
+
+table#mytable tbody tr.odd {
+  background-color: #F5DEB3; /* x11-wheat */ */
+}
+
+table#mytable tbody tr.even {
+  background-color: #B0C4DE; /* x11-light-steel-blue */
+}
+
+table#mytable tbody td {
+  padding: 0px 0px 0px 0px;
+  width: 30px;
+  height: 65px;
+  text-align: center;
+  border: none;
+}
+
+table#mytable tbody td.row-spacer-left {
+  border-top: 2px solid #a0522d;
+  border-bottom: 2px solid #a0522d;
+  border-right: 2px solid #a0522d;
+  width: 15px;
+}
+
+table#mytable tbody td.row-spacer-right {
+  border-top: 2px solid #a0522d;
+  border-bottom: 2px solid #a0522d;
+  border-left: 2px solid #a0522d;
+  width: 15px;
+}
+
+table#mytable tbody td.row-header-odd figure {
+  box-sizing: border-box;
+  font-size: 15px;
+  font-weight: bold;
+  width: 175px;
+  height: 126px;
+  text-align: right;
+  text-indent: 4px;
+  border: none;
+  vertical-align: bottom;
+}
+
+table#mytable tbody td.row-header-odd figcaption {
+  box-sizing: border-box;
+  position: relative;
+  top: 0px;
+  width: 170px;
+  height: 16px;
+  padding: 0px 0px 0px 0px;
+}
+
+
+table#mytable tbody td.row-header-odd figure img {
+  box-sizing: border-box;
+  width: 170px;
+  height: 100px;
+  float: left;
+  position: relative;
+  bottom: -10px;
+  padding: 0px 0px 2px 2px;
+}
+
+table#mytable tbody td.row-header-even figure {
+  box-sizing: border-box;
+  font-size: 15px;
+  font-weight: bold;
+  width: 175px;
+  height: 126px;
+  text-align: left;
+  text-indent: 4px;
+  border: none;
+  vertical-align: bottom;
+}
+
+table#mytable tbody td.row-header-even figcaption {
+  box-sizing: border-box;
+  position: relative;
+  bottom: 0px;
+  width: 170px;
+  height: 16px;
+  padding: 0px 0px 0px 0px;
+}
+
+table#mytable tbody td.row-header-even figure img {
+  box-sizing: border-box;
+  width: 170px;
+  height: 100px;
+  float: right;
+  position: relative;
+  top: 0px;
+  padding: 0px 2px 2px 0px;
+}
+
+table#mytable tbody td.row-header-odd {
+  box-sizing: border-box;
+  padding: 0px 0px 0px 0px;
+  width: 175px;
+  border-left: 2px solid #a0522d;
+  border-top: 2px solid #a0522d;
+  border-bottom: 2px solid #a0522d;
+  background-color: #F5DEB3; 
+}
+
+table#mytable tbody td.row-header-even {
+  box-sizing: border-box;
+  padding: 0px 0px 0px 0px;
+  width: 175px;
+  border-right: 2px solid #a0522d;
+  border-top: 2px solid #a0522d;
+  border-bottom: 2px solid #a0522d;
+  background-color: #B0C4DE;
+}
+
+table#mytable tbody td.yes {
+  box-sizing: border-box;
+  width: 30px;
+  padding: 0px 0px 0px 0px;
+  border-left: 2px solid #a0522d;
+  border-right: 2px solid #a0522d;
+  border-top: 2px solid #a0522d;
+  border-bottom: 2px solid #a0522d;
+  color: green;
+}
+
+table#mytable tbody td.no {
+  box-sizing: border-box;
+  width: 30px;
+  padding: 0px 0px 0px 0px;
+  border-left: 2px solid #a0522d;
+  border-right: 2px solid #a0522d;
+  border-top: 2px solid #a0522d;
+  border-bottom: 2px solid #a0522d;
+}
+

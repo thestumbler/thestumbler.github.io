@@ -1,0 +1,308 @@
+/* this main table class for all such entries  */
+table.mylist {
+  table-layout: fixed;
+  display: inline;
+  border-collapse: separate !important;
+  border-width: 10px;
+  border-style: solid;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 50px 50px 50px 50px;
+  max-height: 132px;
+  height: 132px;
+}
+table.mylist tbody.mybody {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+table.mylist tbody.mybody tr.mytitle {
+  border: none;
+  height: 50px;
+  padding: 0px;
+  margin: 0px;
+}
+table.mylist tbody.mybody tr.mytitle td.mytext {
+  border: none;
+  border-radius: 30px 30px 30px 30px;
+  font-weight: 800;
+  font-size: 30px;
+  height: 50px;
+  max-width: 600px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: normal;
+  word-break: normal;
+  white-space: nowrap;
+  padding-bottom: 0px;
+  vertical-align: bottom;
+}
+table.mylist tbody.mybody tr.mytitle td.myimg {
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  border-radius: 35px 35px 35px 35px;
+  width: 100px;
+  min-width: 100px;
+  max-width: 100px;
+  height: 100px;
+  min-height: 100px;
+  max-height: 100px;
+}
+table.mylist tbody.mybody tr.mytitle td.myimg img {
+  border-radius: 30px 30px 30px 30px;
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+}
+table.mylist tbody.mybody tr.mydescr {
+  border: none;
+  height: 50px;
+}
+table.mylist tbody.mybody tr.mydescr td.mytext2 {
+  border: none;
+  border-radius: 35px 35px 35px 35px;
+  font-weight: normal;
+  font-size: 20px;
+  max-width: 600px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: normal;
+  word-break: normal;
+  white-space: nowrap;
+  padding-top: 0px;
+  vertical-align: top;
+}
+
+/* additional class for projects' activity: */
+/* floats to the right */
+/* has it's unique color */
+table.myproj {
+  float: left;
+  border-color: #8A00FF;
+  border-bottom-left-radius: 0px;
+}
+
+table.myproj tbody.mybody tr.mytitle: {
+  text-align: left;
+  color: #800AFF;
+}
+table.myproj tbody.mybody tr.mytitle td.mytext {
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 30px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+table.myproj tbody.mybody tr.mytitle td.myimg {
+  border-bottom-left-radius: 0px;
+}
+table.myproj tbody.mybody tr.mytitle td.myimg img {
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  float: left;
+  position: relative;
+  border-bottom-left-radius: 0px;
+}
+table.myproj tbody.mybody tr.mydescr td.mytext2 {
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 30px;
+  text-align: left;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+/* additional class for blog activity: */
+/* floats to the right */
+/* has it's unique color */
+table.myblog {
+  float: right;
+  border-color: #008AFF;
+  border-bottom-right-radius: 0px;
+}
+table.myblog tbody.mybody tr.mytitle {
+  text-align: right;
+  color: #008AFF;
+}
+table.myblog tbody.mybody tr.mytitle td.mytext {
+  text-align: right;
+  padding-right: 10px;
+  padding-left: 30px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+table.myblog tbody.mybody tr.mytitle td.myimg {
+  border-bottom-right-radius: 0px;
+}
+table.myblog tbody.mybody tr.mytitle td.myimg img {
+  object-fit: cover;
+  float: left;
+  position: relative;
+  border-bottom-right-radius: 0px;
+}
+table.myblog tbody.mybody tr.mydescr td.mytext2 {
+  padding-right: 10px;
+  padding-left: 30px;
+  text-align: right;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+/* additional class for the alaska blog activity: */
+/* floats to the right */
+/* has it's unique color */
+table.myalaska {
+  float: right;
+  border-color: #FABFDE;
+  border-radius: 50px 50px 0px 50px;
+}
+table.myalaska tbody.mybody tr.mytitle {
+  text-align: right;
+  color: #008AFF;
+}
+table.myalaska tbody.mybody tr.mytitle td.mytext {
+  text-align: right;
+  padding-right: 10px;
+  padding-left: 30px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+table.myalaska tbody.mybody tr.mytitle td.myimg {
+  border-bottom-right-radius: 0px;
+}
+table.myalaska tbody.mybody tr.mytitle td.myimg img {
+  object-fit: cover;
+  float: left;
+  position: relative;
+  border-bottom-right-radius: 0px;
+}
+table.myalaska tbody.mybody tr.mydescr td.mytext2 {
+  padding-right: 10px;
+  padding-left: 30px;
+  text-align: right;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+
+table.myouter-proj {
+  float: left;
+}
+table.myouter-blog {
+  float: right;
+}
+table.myouter {
+  border-width: 0px;
+  padding: 0px;
+  margin: 0px;
+  height: 140px;
+}
+table.myouter tbody.mybody {
+  margin: 0px;
+}
+table.myouter tbody.mybody tr.myrow {
+  border-width: 0px;
+  background-color: transparent;
+  padding: 0px;
+  margin: 0px;
+  height: 140px;
+}
+table.myouter tbody.mybody tr.myrow td.mycol {
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  height: 140px;
+  width: auto;
+}
+table.myouter tbody.mybody tr.myrow td.mycol-date {
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  height: 140px;
+  width: 140px;
+  min-width: 140px;
+}
+table.myouter-proj tbody.mybody tr.myrow td.mycol-date>div {
+  transform: 
+    translatex(-10px)
+    rotate(45deg);
+}
+table.myouter-blog tbody.mybody tr.myrow td.mycol-date>div {
+  transform: 
+    translatex(10px)
+    rotate(-45deg);
+}
+
+table.mydate {
+  table-layout: fixed;
+  background-image: url("/images/smudge.png");
+  border-collapse: separate !important;
+  border-width: 13px;
+  border-style: solid;
+  border-color:  DarkGoldenrod;
+  border-radius: 0px 80px 80px 80px;
+  padding: 5px;
+  margin: 5px;
+  width: 132px;
+  height: 132px;
+  max-height: 132px;
+}
+table.mydate tr.mydrow {
+  padding: 0px;
+  background-color: transparent;
+}
+table.mydate tr.mydrow td.mydatetext {
+  background-color: transparent;
+  padding: 0px;
+  border-width: 0px;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  font-family: monospace;
+  width: 72px;
+  min-width: 72px;
+  max-width: 72px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+table.mydate tr.mydrow td.mydow {
+  font-weight: 900;
+  color: SaddleBrown;
+  font-size: 25px;
+  height: 25px;
+  max-height: 25px;
+  min-height: 25px;
+  line-height: 25px;
+}
+table.mydate tr.mydrow td.mymonth {
+  font-weight: 900;
+  color: SaddleBrown;
+  font-size: 22px;
+  height: 22px;
+  max-height: 22px;
+  min-height: 22px;
+  line-height: 22px;
+}
+table.mydate tr.mydrow td.myyear {
+  font-weight: 900;
+  color: SaddleBrown;
+  font-size: 25px;
+  height: 25px;
+  max-height: 25px;
+  min-height: 25px;
+  line-height: 25px;
+}
+
+
+table.page-header {
+
+}

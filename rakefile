@@ -19,8 +19,8 @@ TIME = Time.now.strftime("%H:%M:%S")
 POST_TIME = DATE + ' ' + TIME
 
 # Directories
-POSTS = "files/_posts"
-DRAFTS = "files/_drafts"
+POSTS = "contents/_posts"
+DRAFTS = "contents/_drafts"
 
 # == Helpers ===================================================================
 
@@ -134,6 +134,7 @@ task :publish do
   number = $stdin.gets
   if number =~ /\D/
     filename = files[number.to_i - 1].sub("#{DRAFTS}/", "")
+    execute( "sed -i \"\" \"s/^date:/date: #{DATE}/\" #{DRAFTS}/#{filename}" )
     FileUtils.mv("#{DRAFTS}/#{filename}", "#{POSTS}/#{DATE}-#{filename}")
     puts "#{filename} was moved to '#{POSTS}'."
   else

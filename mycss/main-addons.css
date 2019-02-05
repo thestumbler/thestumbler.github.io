@@ -1,0 +1,3 @@
+/* --- rclott: Added for image captions --- */
+img + em { display: block; text-align: center; }
+

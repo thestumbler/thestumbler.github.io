@@ -1,0 +1,30 @@
+---
+layout: page
+title: Amateur Radio
+subtitle: Various Ham Radio Projects
+image: "/images/hamradio/callsign.png"
+bigimg: "/images/hamradio/ham-radio-w4aql.png"
+seq: 0
+collection: pages
+category: hamradio
+permalink: 'projs/hamradio.html'
+date: 2019-01-29
+---
+
+{% assign sorted = site.documents | sort: 'seq' %}
+{% for doc in sorted %} 
+  {% if doc.collection ==  'projs' %}
+    {% if doc.category ==  page.category %}
+      <h2 class="post-title">
+        {% comment %}
+        {{ article.seq }}.  
+        {% endcomment %}
+        <li>
+        <a href="{{ doc.url }}">{{ doc.title }}</a>
+        </li>
+      </h2>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+
