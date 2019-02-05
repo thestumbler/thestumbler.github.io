@@ -84,7 +84,7 @@ css: '/mycss/recent-activity.css'
           </a>
         </td>
         <td class="myimg" rowspan="2">
-          <img src="{{ doc.avatar }}" />
+          <img src="{{ doc.image }}" />
         </td>
       </tr>
       <tr class="mydescr">
@@ -107,7 +107,7 @@ css: '/mycss/recent-activity.css'
       <tbody class="mybody">
       <tr class="mytitle">
         <td class="myimg" rowspan="2">
-          <img src="{{ doc.avatar }}" />
+          <img src="{{ doc.image }}" />
         </td>
         <td class="mytext">
           <a href="{{ doc.url  }}">{{ doc.title }}</a>
