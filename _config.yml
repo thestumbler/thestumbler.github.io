@@ -25,9 +25,6 @@ collections:
   projs:
     output: true
     permalink: /projs/:categories/:title.html
-  content_english:
-    output: true
-    permalink: /projs/english/scripts/:name.html
 
 
 
@@ -203,6 +200,10 @@ paginate_path: '/blog/page:num/'
 kramdown:
   input: GFM
 
+
+# my addons to main css
+common-css: '/mycss/main-addons.css'
+
 # Default YAML values (more information on Jekyll's site)
 defaults:
   -
@@ -211,21 +212,25 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      css: '/mycss/main-addons.css'
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
   -
     scope:
-      path: "" # all files
+      path: ""
+      type: "pages"
     values:
       layout: "page"
+      css: '/mycss/main-addons.css'
       show-avatar: true
       comments: false
   -
     scope:
-      path: "projs"
-      type: "pages"
+      path: ""
+      type: "projs"
     values:
       layout: "page"
+      css: '/mycss/main-addons.css'
       show-avatar: true
       comments: false
   - 
@@ -241,10 +246,10 @@ link-tags: true
 # These settings used by my Rakefile, modified from:
 # https://github.com/gummesson/jekyll-rake-boilerplate.git
 post:
-  template: content/_posts/_post.txt
+  template: contents/_posts/_post.txt
   extension: md
 page:
-  template: content/_pages/_page.txt
+  template: contents/_pages/_page.txt
   extension: md
 editor: '/Applications/MacVim.app/contents/MacOS/Vim -g'
 

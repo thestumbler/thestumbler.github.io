@@ -3,6 +3,7 @@ layout: page
 title: About Me
 subtitle: Learn more about The Stumbler
 bigimg: /images/the-global-stumbler.jpg
+image: /images/thestumbler.jpg
 permalink: /about/aboutme.html
 date: 2019-01-23
 ---

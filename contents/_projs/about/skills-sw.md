@@ -3,6 +3,7 @@ layout: page
 title: About Me
 subtitle: Software Experience
 bigimg: /images/the-global-stumbler.jpg
+image: /images/thestumbler.jpg
 show-avatar: true
 category: about
 collection: pages

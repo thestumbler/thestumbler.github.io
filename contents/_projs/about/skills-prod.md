@@ -3,6 +3,7 @@ layout: page
 title: About Me
 subtitle: Product Development Experience
 bigimg: /images/the-global-stumbler.jpg
+image: /images/thestumbler.jpg
 show-avatar: true
 collection: pages
 category: about

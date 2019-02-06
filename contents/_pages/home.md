@@ -62,7 +62,6 @@ css: '/mycss/recent-activity.css'
 {% endif %}
 
 {% if doc.collection ==  'projs' %}
-{% unless doc.category ==  'about' %}
 {% if doc.category ==  'alaska' %}
 <table class="myouter myouter-blog">
   <tbody class="mybody">
@@ -132,7 +131,6 @@ css: '/mycss/recent-activity.css'
   </tbody>
 </table>
 {% endif %}
-{% endunless %}
 {% endif %}
 
  

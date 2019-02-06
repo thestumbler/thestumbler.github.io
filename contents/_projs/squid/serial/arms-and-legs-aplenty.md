@@ -1,6 +1,6 @@
 ---
 layout: page
-avatar: "/images/serial-squid-icon512.png"
+image: "/images/serial-squid-icon512.png"
 bigimg: "/images/serial-squid-big-image.png"
 subtitle: The Serial Squid
 title: Arms and Legs Aplenty

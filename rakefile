@@ -16,7 +16,9 @@ CONFIG = YAML.load_file("_config.yml")
 # Get and parse the date
 DATE = Time.now.strftime("%Y-%m-%d")
 TIME = Time.now.strftime("%H:%M:%S")
-POST_TIME = DATE + ' ' + TIME
+# POST_TIME = DATE + ' ' + TIME
+# for some reason, jekyll balks at having time as well, only date
+POST_TIME = DATE
 
 # Directories
 POSTS = "contents/_posts"
@@ -134,7 +136,7 @@ task :publish do
   number = $stdin.gets
   if number =~ /\D/
     filename = files[number.to_i - 1].sub("#{DRAFTS}/", "")
-    execute( "sed -i \"\" \"s/^date:/date: #{DATE}/\" #{DRAFTS}/#{filename}" )
+    execute( "sed -i \"\" \"s/^date:.*$/date: #{POST_TIME}/\" #{DRAFTS}/#{filename}" )
     FileUtils.mv("#{DRAFTS}/#{filename}", "#{POSTS}/#{DATE}-#{filename}")
     puts "#{filename} was moved to '#{POSTS}'."
   else
@@ -215,12 +217,12 @@ desc "Serve and watch the site (with post limit or drafts)"
 task :watch, :option do |t, args|
   option = args[:option]
   if option.nil? or option.empty?
-    execute("jekyll serve --watch")
+    execute("jekyll serve --watch --host 0.0.0.0")
   else
     if option == "drafts"
-      execute("jekyll serve --watch --drafts")
+      execute("jekyll serve --watch --drafts --host 0.0.0.0")
     else
-      execute("jekyll serve --watch --limit_posts #{option}")
+      execute("jekyll serve --watch --limit_posts #{option} --host 0.0.0.0")
     end
   end
 end

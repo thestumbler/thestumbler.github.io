@@ -10,8 +10,6 @@ tags:
 - charging
 ---
 
-
-
 A few years ago, I forgot my spare cell phone battery on a trip to Hong Kong, and I hastily purchased one at the airport.  When I returned home, I soon realized that with three identical batteries, it was hard to keep a steady rotation of even usage.  Furthermore, while out and about with two fresh batteries in my bag, once I swapped batteries it was hard to determine which battery was drained and which was fresh.  Although this trivial problem won't bother most people outside of engineers and OCD patients, I offer the following low-cost solution. 
 
 You will need only two things: a Sharpie permanent marker and a label making machine. The latter could be omitted depending on your budget and level of obsessiveness. 

@@ -1,6 +1,6 @@
 ---
 layout: page
-avatar: "/images/serial-squid-icon512.png"
+image: "/images/serial-squid-icon512.png"
 bigimg: "/images/serial-squid-big-image.png"
 title: Introducing the Serial Squid
 subtitle: The Serial Squid
